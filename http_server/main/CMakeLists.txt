@@ -1,0 +1,12 @@
+idf_component_register(SRCS "app_main.c"
+                            "time_update.c" 
+                            "mqtt.c" 
+                            "uart.c"
+                            "wifi_connect.c"
+                            "smart_config.c"
+                            "car_control_frame.c"
+                            "nvs_wifi_info.c"
+                            "http_server.c"
+                        INCLUDE_DIRS "."
+                                 "../include"
+                        EMBED_TXTFILES "./certs/cacert.pem" "./certs/prvtkey.pem")
