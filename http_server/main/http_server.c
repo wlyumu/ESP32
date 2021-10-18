@@ -1,4 +1,4 @@
-
+#include <string.h>
 #include <esp_wifi.h>
 #include <esp_event.h>
 #include <esp_log.h>
@@ -214,13 +214,14 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
     return ESP_OK;
 }
 
+
 static const httpd_uri_t hello = {
     .uri       = "/hello",
     .method    = HTTP_GET,
     .handler   = hello_get_handler,
     /* Let's pass response string in user
      * context to demonstrate it's usage */
-    .user_ctx  = "Hello World!"
+    .user_ctx  = "HTML"
 };
 
 /* An HTTP POST handler */
@@ -246,7 +247,7 @@ static esp_err_t echo_post_handler(httpd_req_t *req)
 
         /* Log data received */
         ESP_LOGI(TAG, "=========== RECEIVED DATA ==========");
-        ESP_LOGI(TAG, "%.*s", ret, buf);
+       // ESP_LOGI(TAG, "%.*s", ret, buf);
         ESP_LOGI(TAG, "====================================");
     }
 
@@ -303,7 +304,7 @@ static esp_err_t ctrl_put_handler(httpd_req_t *req)
         }
         return ESP_FAIL;
     }
-
+    ESP_LOGI(TAG,"%c", buf);
     if (buf == '0') {
         /* URI handlers can be unregistered using the uri string */
         ESP_LOGI(TAG, "Unregistering /hello and /echo URIs");
