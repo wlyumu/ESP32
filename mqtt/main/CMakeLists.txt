@@ -1,0 +1,13 @@
+idf_component_register(SRCS "app_main.c"
+                            "time_update.c" 
+                            "mqtt.c" 
+                            "uart.c"
+                            "wifi_connect.c"
+                            "smart_config.c"
+                            "car_control_frame.c"
+                            "nvs_wifi_info.c"
+                            "http_server.c"
+                            "esp_timer_demo.c"
+                        INCLUDE_DIRS "."
+                                 "../include"
+                        EMBED_TXTFILES "favicon.ico" "upload_script.html")

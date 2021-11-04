@@ -1,8 +1,8 @@
-# Install script for directory: /home/wl/esp/ESP32/http_server/main
+# Install script for directory: E:/EPS32/esp32_test/ESP32/http_server/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mqtt_tcp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
