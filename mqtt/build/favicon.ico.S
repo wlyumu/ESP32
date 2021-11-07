@@ -1,4 +1,4 @@
-/* * Data converted from E:/EPS32/esp32_test/mqtt/main/favicon.ico
+/* * Data converted from E:/EPS32/esp32_test/mqtt/web_server/favicon.ico
  * (null byte appended)
  */
 .data

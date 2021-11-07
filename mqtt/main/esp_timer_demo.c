@@ -36,6 +36,9 @@ esp_timer_handle_t periodic_timer;
 static void periodic_timer_callback(void *arg)
 {
     int64_t time_since_boot = esp_timer_get_time();
+    // uint32_t test = 0x12345678;
+    // uint8_t *p = &test;
+    // ESP_LOGI(TAG,"%x, %x, %x, %X\r\n", *p, *(p+1), *(p+2), *(p+3));
     ESP_LOGI(TAG, "Periodic timer called, time since boot: %lld us", time_since_boot);
 }
 
@@ -47,5 +50,5 @@ void esp_timerInit(void)
         .name = "periodic"}; //周期定时器配置
     ESP_ERROR_CHECK(esp_timer_create(&periodic_timer_args, &periodic_timer));
 
-    ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, 1000000)); //1s回调一次
+    ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, 1000)); //1s回调一次
 }

@@ -1,4 +1,4 @@
-/* * Data converted from E:/EPS32/esp32_test/mqtt/main/upload_script.html
+/* * Data converted from E:/EPS32/esp32_test/mqtt/web_server/upload_script.html
  * (null byte appended)
  */
 .data

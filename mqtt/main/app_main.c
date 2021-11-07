@@ -109,7 +109,7 @@ void app_main(void)
    ESP_LOGD(TAG,"my write APP");
    //uart_create_thread();
    //nvs_write_read();
-   esp_timerInit();
+  // esp_timerInit();
    gpio_reset_pin(2);
    gpio_set_direction(2, GPIO_MODE_OUTPUT);
    init_spiffs();
