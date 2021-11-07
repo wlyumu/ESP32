@@ -46,13 +46,15 @@ void uart2_init(void) {
  * @return int       返回已发送数据的长度       
  */
 
-int sendData(const char* logName, const char* data)
+int sendData(uart_port_t _uartNum, const char* data)
 {
     const int len = strlen(data);
-    const int txBytes = uart_write_bytes(UART_NUM_2, data, len);
-    ESP_LOGI(logName, "Wrote %d bytes", txBytes);
+    const int txBytes = uart_write_bytes(_uartNum, data, len);
+   
     return txBytes;
 }
+
+
 
 /**
  * @Brief : 设置断连时间计数次数
@@ -148,9 +150,12 @@ static void rx_task(void *arg)
     free(data);
 }
 
+extern void bsp_uart1Init(void);
+
 void uart2_task_create(void)
 {
     uart2_init();
+    bsp_uart1Init();
     xTaskCreate(rx_task, "uart_rx_task", 1024*4, NULL, configMAX_PRIORITIES, NULL);
     xTaskCreate(tx_task, "uart_tx_task", 1024*2, NULL, configMAX_PRIORITIES-1, NULL);
 }

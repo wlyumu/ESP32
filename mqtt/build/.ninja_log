@@ -1247,3 +1247,14 @@
 3459	6852	6580017374811143	esp-idf/esp32/ld/esp32.project.ld	2b0fcb919f1a224f
 6852	12683	6580017433081190	mqtt_tcp.elf	2ef8b3f99385545
 12683	13118	6580017437647952	.bin_timestamp	f14839ce1190330f
+110	294	6574837240231145	bootloader-prefix/src/bootloader-stamp/bootloader-build	31c023c6170fc19a
+110	294	6574837240231145	bootloader/bootloader.elf	31c023c6170fc19a
+110	294	6574837240231145	bootloader/bootloader.bin	31c023c6170fc19a
+110	294	6574837240231145	bootloader/bootloader.map	31c023c6170fc19a
+125	1012	6580039724950506	esp-idf/main/CMakeFiles/__idf_main.dir/__/uart/uart1.c.obj	7d3cb7a35e80f31f
+119	1300	6580039727827167	esp-idf/main/CMakeFiles/__idf_main.dir/__/uart/uart.c.obj	c551aebf9b45bba2
+133	1350	6580039728339195	esp-idf/main/CMakeFiles/__idf_main.dir/__/timer_demo/esp_timer_demo.c.obj	f956709b7dd8ee96
+1351	1552	6580039730382695	esp-idf/main/libmain.a	9e6c3aad9d1ed8b5
+1553	5164	6580039766232156	esp-idf/esp32/ld/esp32.project.ld	2b0fcb919f1a224f
+5164	10868	6580039823214376	mqtt_tcp.elf	2ef8b3f99385545
+10868	11312	6580039827945702	.bin_timestamp	f14839ce1190330f
