@@ -1,4 +1,4 @@
-# Install script for directory: D:/esp/esp-idf/components/esp_hw_support
+# Install script for directory: G:/esp-idf/components/esp_hw_support
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/EPS32/esp32_test/mqtt/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: D:/esp/esp-idf/components/esp_event
+# Install script for directory: G:/esp-idf/components/esp_event
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

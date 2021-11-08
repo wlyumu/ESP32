@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: D:\esp\esp-idf\components\esp32\ld\esp32.project.ld.in */
+/* Generated from: G:\esp-idf\components\esp32\ld\esp32.project.ld.in */
 
 /*  Default entry point:  */
 ENTRY(call_start_cpu0);

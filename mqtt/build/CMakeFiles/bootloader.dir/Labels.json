@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/CMakeFiles/bootloader"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/CMakeFiles/bootloader.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "E:/EPS32/esp32_test/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "C:/Users/wl/Desktop/esp32-demo/mqtt/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		}
 	],
 	"target" : 

@@ -1,4 +1,4 @@
-# Install script for directory: D:/esp/esp-idf/examples/common_components/protocol_examples_common
+# Install script for directory: G:/esp-idf/examples/common_components/protocol_examples_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -50,7 +50,7 @@ int sendData(uart_port_t _uartNum, const char* data)
 {
     const int len = strlen(data);
     const int txBytes = uart_write_bytes(_uartNum, data, len);
-   
+    //ESP_LOGI(TAG, "%d, %s\r\n", len, data);
     return txBytes;
 }
 
@@ -78,7 +78,8 @@ static void tx_task(void *arg)
    
     esp_log_level_set(TX_TASK_TAG, ESP_LOG_INFO);
     while (1) {
-       // sendData(TX_TASK_TAG, "Hello world");
+       sendData(UART_NUM_1, "Hello world\r\n");
+       
        if(getRecFlag() == 1)
        {
          getCarInfo(&_speed, &_direction, &_lightState);

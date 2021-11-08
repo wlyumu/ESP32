@@ -8,8 +8,8 @@
 
 static const char *TAG = "UART1";
 
-#define UART1_TX_PIN (GPIO_NUM_10)
-#define UART1_RX_PIN (GPIO_NUM_9) 
+#define UART1_TX_PIN (GPIO_NUM_32)
+#define UART1_RX_PIN (GPIO_NUM_33) 
 #define UART1_RX_BUF_SIZE 1024
 #define UART1_BAUDRATE    115200
 
