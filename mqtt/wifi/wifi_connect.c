@@ -14,7 +14,7 @@
 #include "nvs_wifi_info.h"
 #include "smart_config.h"
 #include "esp_smartconfig.h"
-#include <esp_https_server.h>
+
 #include "http_server.h"
 
 #define WIFI_SSID        "codbot"

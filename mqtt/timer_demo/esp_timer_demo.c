@@ -36,7 +36,6 @@
 #include "driver/gpio.h"
 
 extern int sendData(uart_port_t _uartNum, const char* data);
-
 static char *TAG = "eps_timer";
 esp_timer_handle_t periodic_timer;
 static void periodic_timer_callback(void *arg)
@@ -45,9 +44,8 @@ static void periodic_timer_callback(void *arg)
     //   uint32_t test = 0x12345678;
     // uint8_t *p = &test;
     // ESP_LOGI(TAG,"%x, %x, %x, %X\r\n", *p, *(p+1), *(p+2), *(p+3));
-    
     ESP_LOGI(TAG, "Periodic timer called, time since boot: %lld us", time_since_boot);
-   
+    sendData(UART_NUM_1, "123\r\n");
 }
 
 void esp_timerInit(void)

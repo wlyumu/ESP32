@@ -13,6 +13,8 @@
 
 #ifndef __HTTP_SERVER_H
 #define __HTTP_SERVER_H
+
+#include <esp_https_server.h>
 /*http server demo*/
 httpd_handle_t start_webserver(void);
 
