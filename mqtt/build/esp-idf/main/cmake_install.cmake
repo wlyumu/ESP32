@@ -1,4 +1,4 @@
-# Install script for directory: E:/EPS32/esp32_test/engineering_project/mqtt/main
+# Install script for directory: E:/EPS32/esp32_test/mqtt/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

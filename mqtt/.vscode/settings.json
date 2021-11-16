@@ -6,7 +6,6 @@
         "gpio.h": "c",
         "*.ipp": "c",
         "*.inc": "c",
-        "cstring": "c",
-        "http_server.h": "c"
+        "cstring": "c"
     }
 }

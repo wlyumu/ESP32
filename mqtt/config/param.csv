@@ -1,0 +1,5 @@
+dummyNamespace,namespace,
+dummyU8Key,data,u8
+dummyI8Key,data,i8
+dummyU16Key,data,u16
+dummyU32Key,data,u32

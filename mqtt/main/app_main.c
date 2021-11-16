@@ -77,10 +77,6 @@ static esp_err_t init_spiffs(void)
     return ESP_OK;
 }
 
-extern void att7053Reset(void);
-extern void esp_timerInit(void);
-extern int vspiMasterInit(void);
-extern void att7053_createThread(void);
 void app_main(void)
 {
     ESP_LOGI(TAG, "[APP] Startup..");
@@ -107,21 +103,18 @@ void app_main(void)
      * examples/protocols/README.md for more information about this function.
      */
     
-    
+    extern void esp_timerInit(void);
    // ESP_ERROR_CHECK(example_connect());
 
-    ESP_LOGD(TAG,"my write APP");
+   ESP_LOGD(TAG,"my write APP");
    //uart_create_thread();
    //nvs_write_read();
   // esp_timerInit();
-    gpio_reset_pin(2);
-    gpio_set_direction(2, GPIO_MODE_OUTPUT);
-    init_spiffs();
+   gpio_reset_pin(2);
+   gpio_set_direction(2, GPIO_MODE_OUTPUT);
+   init_spiffs();
 
-    ESP_ERROR_CHECK(vspiMasterInit());
-    att7053Reset();
-    att7053_createThread();
-//   uart_thread_create();
+   uart_thread_create();
 //    wifi_init_sta();
   
 //    system_time_update();

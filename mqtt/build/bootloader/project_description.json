@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "D:/esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "E:/EPS32/esp32_test/engineering_project/mqtt/build/bootloader",
-    "config_file":        "E:/EPS32/esp32_test/engineering_project/mqtt/sdkconfig",
+    "build_dir":          "E:/EPS32/esp32_test/mqtt/build/bootloader",
+    "config_file":        "E:/EPS32/esp32_test/mqtt/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
