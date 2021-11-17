@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Utility rule file for bootloader.
 
@@ -82,51 +82,51 @@ CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloade
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-configure
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-build
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/CMakeFiles
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/CMakeFiles/bootloader-complete
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/CMakeFiles
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/CMakeFiles/bootloader-complete
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-done
 
 bootloader-prefix/src/bootloader-stamp/bootloader-install: bootloader-prefix/src/bootloader-stamp/bootloader-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'bootloader'"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'bootloader'"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-install
 
 bootloader-prefix/src/bootloader-stamp/bootloader-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'bootloader'"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory D:/esp/esp-idf/components/bootloader/subproject
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/tmp
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'bootloader'"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory G:/esp-idf/components/bootloader/subproject
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/tmp
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
 
 bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-download
 
 bootloader-prefix/src/bootloader-stamp/bootloader-update: bootloader-prefix/src/bootloader-stamp/bootloader-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'bootloader'"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'bootloader'"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-update
 
 bootloader-prefix/src/bootloader-stamp/bootloader-patch: bootloader-prefix/src/bootloader-stamp/bootloader-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'bootloader'"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'bootloader'"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-patch
 
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/tmp/bootloader-cfgcmd.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'bootloader'"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DSDKCONFIG=E:/EPS32/esp32_test/mqtt/sdkconfig -DIDF_PATH=D:/esp/esp-idf -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=python -DEXTRA_COMPONENT_DIRS=D:/esp/esp-idf/components/bootloader -DLEGACY_INCLUDE_COMMON_HEADERS= "-GCodeBlocks - MinGW Makefiles" D:/esp/esp-idf/components/bootloader/subproject
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'bootloader'"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DSDKCONFIG=C:/Users/wl/Desktop/esp32-demo/mqtt/sdkconfig -DIDF_PATH=G:/esp-idf -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=G:/espressif/python_env/idf4.3_py3.8_env/Scripts/python.exe -DEXTRA_COMPONENT_DIRS=G:/esp-idf/components/bootloader -DLEGACY_INCLUDE_COMMON_HEADERS= "-GCodeBlocks - MinGW Makefiles" G:/esp-idf/components/bootloader/subproject
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader-prefix/src/bootloader-stamp/bootloader-configure
 
 bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/bootloader-stamp/bootloader-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'bootloader'"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'bootloader'"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE)
 
 bootloader: CMakeFiles/bootloader
 bootloader: CMakeFiles/bootloader-complete
@@ -151,6 +151,6 @@ CMakeFiles/bootloader.dir/clean:
 .PHONY : CMakeFiles/bootloader.dir/clean
 
 CMakeFiles/bootloader.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt E:\EPS32\esp32_test\mqtt E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles\bootloader.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt C:\Users\wl\Desktop\esp32-demo\mqtt C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles\bootloader.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bootloader.dir/depend
 

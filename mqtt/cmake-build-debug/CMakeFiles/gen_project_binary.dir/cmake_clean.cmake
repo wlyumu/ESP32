@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   ".bin_timestamp"
-  "CMakeFiles/gen_project_binary"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.elf"
   "bootloader/bootloader.map"
@@ -10,6 +9,7 @@ file(REMOVE_RECURSE
   "mqtt_tcp.bin"
   "mqtt_tcp.map"
   "project_elf_src_esp32.c"
+  "CMakeFiles/gen_project_binary"
 )
 
 # Per-language clean rules from dependency scanning.

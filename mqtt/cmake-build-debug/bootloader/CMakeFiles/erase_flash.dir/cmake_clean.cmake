@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/erase_flash"
   "bootloader.bin"
   "bootloader.map"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
   "project_elf_src_esp32.c"
+  "CMakeFiles/erase_flash"
 )
 
 # Per-language clean rules from dependency scanning.

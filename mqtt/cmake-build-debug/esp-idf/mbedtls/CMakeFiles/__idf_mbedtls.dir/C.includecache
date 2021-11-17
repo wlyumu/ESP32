@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/esp_common/include/esp_assert.h
+G:/esp-idf/components/esp_common/include/esp_assert.h
 assert.h
-D:/esp/esp-idf/components/esp_common/include/assert.h
+G:/esp-idf/components/esp_common/include/assert.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
+G:/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_compiler.h
+G:/esp-idf/components/esp_common/include/esp_compiler.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_err.h
+G:/esp-idf/components/esp_common/include/esp_err.h
 stdint.h
 -
 stdio.h
@@ -22,9 +22,9 @@ stdio.h
 assert.h
 -
 
-D:/esp/esp-idf/components/esp_common/include/esp_idf_version.h
+G:/esp-idf/components/esp_common/include/esp_idf_version.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
@@ -32,101 +32,101 @@ stdbool.h
 stdlib.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/esp_rom/include/esp32/rom/sdkconfig.h
+G:/esp-idf/components/esp_rom/include/esp32/rom/sdkconfig.h
 soc/soc.h
-D:/esp/esp-idf/components/esp_rom/include/esp32/rom/soc/soc.h
+G:/esp-idf/components/esp_rom/include/esp32/rom/soc/soc.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 
-D:/esp/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 soc/soc.h
-D:/esp/esp-idf/components/esp_rom/include/esp32s2/rom/soc/soc.h
+G:/esp-idf/components/esp_rom/include/esp32s2/rom/soc/soc.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 soc/soc.h
-D:/esp/esp-idf/components/esp_rom/include/esp32s3/rom/soc/soc.h
+G:/esp-idf/components/esp_rom/include/esp32s3/rom/soc/soc.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+G:/esp-idf/components/esp_rom/include/esp_rom_sys.h
 stdint.h
 -
 
-D:/esp/esp-idf/components/esp_system/include/esp_system.h
+G:/esp-idf/components/esp_system/include/esp_system.h
 stdint.h
 -
 stdbool.h
 -
 esp_err.h
-D:/esp/esp-idf/components/esp_system/include/esp_err.h
+G:/esp-idf/components/esp_system/include/esp_err.h
 esp_attr.h
-D:/esp/esp-idf/components/esp_system/include/esp_attr.h
+G:/esp-idf/components/esp_system/include/esp_attr.h
 esp_bit_defs.h
-D:/esp/esp-idf/components/esp_system/include/esp_bit_defs.h
+G:/esp-idf/components/esp_system/include/esp_bit_defs.h
 esp_idf_version.h
-D:/esp/esp-idf/components/esp_system/include/esp_idf_version.h
+G:/esp-idf/components/esp_system/include/esp_idf_version.h
 sdkconfig.h
-D:/esp/esp-idf/components/esp_system/include/sdkconfig.h
+G:/esp-idf/components/esp_system/include/sdkconfig.h
 
-D:/esp/esp-idf/components/log/include/esp_log.h
+G:/esp-idf/components/log/include/esp_log.h
 stdint.h
 -
 stdarg.h
 -
 esp_rom_sys.h
-D:/esp/esp-idf/components/log/include/esp_rom_sys.h
+G:/esp-idf/components/log/include/esp_rom_sys.h
 sdkconfig.h
-D:/esp/esp-idf/components/log/include/sdkconfig.h
+G:/esp-idf/components/log/include/sdkconfig.h
 esp32/rom/ets_sys.h
-D:/esp/esp-idf/components/log/include/esp32/rom/ets_sys.h
+G:/esp-idf/components/log/include/esp32/rom/ets_sys.h
 esp32s2/rom/ets_sys.h
-D:/esp/esp-idf/components/log/include/esp32s2/rom/ets_sys.h
+G:/esp-idf/components/log/include/esp32s2/rom/ets_sys.h
 esp32s3/rom/ets_sys.h
-D:/esp/esp-idf/components/log/include/esp32s3/rom/ets_sys.h
+G:/esp-idf/components/log/include/esp32s3/rom/ets_sys.h
 esp32c3/rom/ets_sys.h
-D:/esp/esp-idf/components/log/include/esp32c3/rom/ets_sys.h
+G:/esp-idf/components/log/include/esp32c3/rom/ets_sys.h
 esp_log_internal.h
-D:/esp/esp-idf/components/log/include/esp_log_internal.h
+G:/esp-idf/components/log/include/esp_log_internal.h
 
-D:/esp/esp-idf/components/log/include/esp_log_internal.h
+G:/esp-idf/components/log/include/esp_log_internal.h
 
-D:/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c
+G:/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c
 string.h
 -
 esp_system.h
 -
 esp_crt_bundle.h
-D:/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.h
+G:/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.h
 esp_log.h
-D:/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_log.h
+G:/esp-idf/components/mbedtls/esp_crt_bundle/esp_log.h
 esp_err.h
-D:/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_err.h
+G:/esp-idf/components/mbedtls/esp_crt_bundle/esp_err.h
 
-D:/esp/esp-idf/components/mbedtls/esp_crt_bundle/include/esp_crt_bundle.h
+G:/esp-idf/components/mbedtls/esp_crt_bundle/include/esp_crt_bundle.h
 mbedtls/ssl.h
-D:/esp/esp-idf/components/mbedtls/esp_crt_bundle/include/mbedtls/ssl.h
+G:/esp-idf/components/mbedtls/esp_crt_bundle/include/mbedtls/ssl.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 stddef.h
 -
 bignum.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 stddef.h
 -
 stdint.h
@@ -134,177 +134,177 @@ stdint.h
 stdio.h
 -
 bignum_alt.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum_alt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum_alt.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h
 limits.h
 -
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 stddef.h
 -
 platform_util.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 check_config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 bignum.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 dhm_alt.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm_alt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm_alt.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 ecp.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 ecp.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
 md.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 bignum.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 ecp_alt.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp_alt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp_alt.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
 stddef.h
 -
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 md.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
 rsa.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h
 ecp.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
 ecdsa.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 time.h
 -
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 stddef.h
 -
 platform_time.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h
 time.h
 -
 assert.h
 -
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 bignum.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 md.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
 threading.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading.h
 rsa_alt.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa_alt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa_alt.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 bignum.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 ecp.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h
 ssl_ciphersuites.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h
 x509_crt.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h
 x509_crl.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h
 dhm.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h
 ecdh.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h
 zlib.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/zlib.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/zlib.h
 platform_time.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 pk.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h
 cipher.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h
 md.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 stdlib.h
 -
 pthread.h
 -
 threading_alt.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading_alt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading_alt.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 asn1.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h
 pk.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h
 rsa.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 x509.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h
 
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h
 config.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
 x509.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h
 x509_crl.h
-D:/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h
+G:/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h
 
-D:/esp/esp-idf/components/newlib/platform_include/assert.h
+G:/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-D:/esp/esp-idf/components/newlib/platform_include/esp_compiler.h
+G:/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-D:/esp/esp-idf/components/newlib/platform_include/pthread.h
+G:/esp-idf/components/newlib/platform_include/pthread.h
 sys/types.h
 -
 sys/time.h
@@ -312,27 +312,27 @@ sys/time.h
 sys/features.h
 -
 
-D:/esp/esp-idf/components/newlib/platform_include/sys/time.h
+G:/esp-idf/components/newlib/platform_include/sys/time.h
 _ansi.h
 -
 sys/types.h
 -
 
-D:/esp/esp-idf/components/newlib/platform_include/time.h
+G:/esp-idf/components/newlib/platform_include/time.h
 
-D:/esp/esp-idf/components/soc/esp32/include/soc/soc.h
+G:/esp-idf/components/soc/esp32/include/soc/soc.h
 stdint.h
 -
 esp_assert.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/esp_assert.h
+G:/esp-idf/components/soc/esp32/include/soc/esp_assert.h
 esp_bit_defs.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/esp_attr.h
+G:/esp-idf/components/xtensa/include/esp_attr.h
 stdint.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/xtensa/include/sdkconfig.h
+G:/esp-idf/components/xtensa/include/sdkconfig.h
 
 config/sdkconfig.h
 

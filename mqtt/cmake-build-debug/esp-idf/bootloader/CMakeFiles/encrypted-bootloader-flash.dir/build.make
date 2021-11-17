@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Utility rule file for encrypted-bootloader-flash.
 
@@ -72,9 +72,9 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
 include esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/progress.make
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "Error: The target encrypted-bootloader-flash requires"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\bootloader && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" "D:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/bin/cmake.exe" -P D:/esp/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "Error: The target encrypted-bootloader-flash requires"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\bootloader && "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" "F:/Program Files/JetBrains/CLion 2021.1.3/bin/cmake/win/bin/cmake.exe" -P G:/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-bootloader-flash: esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash
 encrypted-bootloader-flash: esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build.make
@@ -87,10 +87,10 @@ esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build: encrypted-bo
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\bootloader && $(CMAKE_COMMAND) -P CMakeFiles\encrypted-bootloader-flash.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\bootloader && $(CMAKE_COMMAND) -P CMakeFiles\encrypted-bootloader-flash.dir\cmake_clean.cmake
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean
 
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\components\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\bootloader\CMakeFiles\encrypted-bootloader-flash.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\components\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\bootloader\CMakeFiles\encrypted-bootloader-flash.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend
 

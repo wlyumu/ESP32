@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/depend.make
@@ -76,56 +76,56 @@ include esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/progress.make
 include esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/flags.make
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/flags.make
-esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj: D:/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\mqtt_client.c.obj -c D:\esp\esp-idf\components\mqtt\esp-mqtt\mqtt_client.c
+esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj: G:/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\mqtt_client.c.obj -c G:\esp-idf\components\mqtt\esp-mqtt\mqtt_client.c
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\mqtt\esp-mqtt\mqtt_client.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\mqtt_client.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\mqtt\esp-mqtt\mqtt_client.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\mqtt_client.c.i
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\mqtt\esp-mqtt\mqtt_client.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\mqtt_client.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\mqtt\esp-mqtt\mqtt_client.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\mqtt_client.c.s
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/flags.make
-esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj: D:/esp/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_msg.c.obj -c D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_msg.c
+esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj: G:/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_msg.c.obj -c G:\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_msg.c
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_msg.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_msg.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_msg.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_msg.c.i
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_msg.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_msg.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_msg.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_msg.c.s
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/flags.make
-esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj: D:/esp/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_outbox.c.obj -c D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_outbox.c
+esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj: G:/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_outbox.c.obj -c G:\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_outbox.c
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_outbox.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_outbox.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_outbox.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_outbox.c.i
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_outbox.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_outbox.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\mqtt\esp-mqtt\lib\mqtt_outbox.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\mqtt_outbox.c.s
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/flags.make
-esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj: D:/esp/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\platform_esp32_idf.c.obj -c D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\platform_esp32_idf.c
+esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj: G:/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\platform_esp32_idf.c.obj -c G:\esp-idf\components\mqtt\esp-mqtt\lib\platform_esp32_idf.c
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\platform_esp32_idf.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\platform_esp32_idf.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\mqtt\esp-mqtt\lib\platform_esp32_idf.c > CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\platform_esp32_idf.c.i
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\mqtt\esp-mqtt\lib\platform_esp32_idf.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\platform_esp32_idf.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\mqtt\esp-mqtt\lib\platform_esp32_idf.c -o CMakeFiles\__idf_mqtt.dir\esp-mqtt\lib\platform_esp32_idf.c.s
 
 # Object files for target __idf_mqtt
 __idf_mqtt_OBJECTS = \
@@ -143,9 +143,9 @@ esp-idf/mqtt/libmqtt.a: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt
 esp-idf/mqtt/libmqtt.a: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
 esp-idf/mqtt/libmqtt.a: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build.make
 esp-idf/mqtt/libmqtt.a: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libmqtt.a"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && $(CMAKE_COMMAND) -P CMakeFiles\__idf_mqtt.dir\cmake_clean_target.cmake
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_mqtt.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libmqtt.a"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && $(CMAKE_COMMAND) -P CMakeFiles\__idf_mqtt.dir\cmake_clean_target.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_mqtt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build: esp-idf/mqtt/libmqtt.a
@@ -153,10 +153,10 @@ esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build: esp-idf/mqtt/libmqtt.a
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt && $(CMAKE_COMMAND) -P CMakeFiles\__idf_mqtt.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt && $(CMAKE_COMMAND) -P CMakeFiles\__idf_mqtt.dir\cmake_clean.cmake
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/clean
 
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\components\mqtt E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\mqtt\CMakeFiles\__idf_mqtt.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\components\mqtt C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\mqtt\CMakeFiles\__idf_mqtt.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/depend
 

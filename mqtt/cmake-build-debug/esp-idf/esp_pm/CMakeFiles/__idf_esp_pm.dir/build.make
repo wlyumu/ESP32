@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/depend.make
@@ -76,43 +76,43 @@ include esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/progress.make
 include esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/flags.make
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/flags.make
-esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj: D:/esp/esp-idf/components/esp_pm/pm_locks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_pm.dir\pm_locks.c.obj -c D:\esp\esp-idf\components\esp_pm\pm_locks.c
+esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj: G:/esp-idf/components/esp_pm/pm_locks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_pm.dir\pm_locks.c.obj -c G:\esp-idf\components\esp_pm\pm_locks.c
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_pm.dir/pm_locks.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\esp_pm\pm_locks.c > CMakeFiles\__idf_esp_pm.dir\pm_locks.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\esp_pm\pm_locks.c > CMakeFiles\__idf_esp_pm.dir\pm_locks.c.i
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_pm.dir/pm_locks.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\esp_pm\pm_locks.c -o CMakeFiles\__idf_esp_pm.dir\pm_locks.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\esp_pm\pm_locks.c -o CMakeFiles\__idf_esp_pm.dir\pm_locks.c.s
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/flags.make
-esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: D:/esp/esp-idf/components/esp_pm/pm_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_pm.dir\pm_trace.c.obj -c D:\esp\esp-idf\components\esp_pm\pm_trace.c
+esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: G:/esp-idf/components/esp_pm/pm_trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_pm.dir\pm_trace.c.obj -c G:\esp-idf\components\esp_pm\pm_trace.c
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_pm.dir/pm_trace.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\esp_pm\pm_trace.c > CMakeFiles\__idf_esp_pm.dir\pm_trace.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\esp_pm\pm_trace.c > CMakeFiles\__idf_esp_pm.dir\pm_trace.c.i
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_pm.dir/pm_trace.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\esp_pm\pm_trace.c -o CMakeFiles\__idf_esp_pm.dir\pm_trace.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\esp_pm\pm_trace.c -o CMakeFiles\__idf_esp_pm.dir\pm_trace.c.s
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/flags.make
-esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj: D:/esp/esp-idf/components/esp_pm/pm_impl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_pm.dir\pm_impl.c.obj -c D:\esp\esp-idf\components\esp_pm\pm_impl.c
+esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj: G:/esp-idf/components/esp_pm/pm_impl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_pm.dir\pm_impl.c.obj -c G:\esp-idf\components\esp_pm\pm_impl.c
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_pm.dir/pm_impl.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\esp_pm\pm_impl.c > CMakeFiles\__idf_esp_pm.dir\pm_impl.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\esp_pm\pm_impl.c > CMakeFiles\__idf_esp_pm.dir\pm_impl.c.i
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_pm.dir/pm_impl.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\esp_pm\pm_impl.c -o CMakeFiles\__idf_esp_pm.dir\pm_impl.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\esp_pm\pm_impl.c -o CMakeFiles\__idf_esp_pm.dir\pm_impl.c.s
 
 # Object files for target __idf_esp_pm
 __idf_esp_pm_OBJECTS = \
@@ -128,9 +128,9 @@ esp-idf/esp_pm/libesp_pm.a: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.
 esp-idf/esp_pm/libesp_pm.a: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
 esp-idf/esp_pm/libesp_pm.a: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/build.make
 esp-idf/esp_pm/libesp_pm.a: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_pm.a"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_pm.dir\cmake_clean_target.cmake
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_esp_pm.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_pm.a"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_pm.dir\cmake_clean_target.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_esp_pm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/build: esp-idf/esp_pm/libesp_pm.a
@@ -138,10 +138,10 @@ esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/build: esp-idf/esp_pm/libesp_pm.a
 .PHONY : esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/build
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_pm.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_pm.dir\cmake_clean.cmake
 .PHONY : esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/clean
 
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\components\esp_pm E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_pm\CMakeFiles\__idf_esp_pm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\components\esp_pm C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_pm\CMakeFiles\__idf_esp_pm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/depend
 

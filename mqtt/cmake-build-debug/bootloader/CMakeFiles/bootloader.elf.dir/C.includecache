@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/project_elf_src_esp32.c
+C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/project_elf_src_esp32.c
 

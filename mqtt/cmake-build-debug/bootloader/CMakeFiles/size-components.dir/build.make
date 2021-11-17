@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\esp\esp-idf\components\bootloader\subproject
+CMAKE_SOURCE_DIR = G:\esp-idf\components\bootloader\subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader
 
 # Utility rule file for size-components.
 
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
 include CMakeFiles/size-components.dir/progress.make
 
 CMakeFiles/size-components: bootloader.elf
-	python D:/esp/esp-idf/tools/idf_size.py --archives E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/bootloader.map
+	G:\espressif\python_env\idf4.3_py3.8_env\Scripts\python.exe G:/esp-idf/tools/idf_size.py --archives C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/bootloader.map
 
 size-components: CMakeFiles/size-components
 size-components: CMakeFiles/size-components.dir/build.make
@@ -89,6 +89,6 @@ CMakeFiles/size-components.dir/clean:
 .PHONY : CMakeFiles/size-components.dir/clean
 
 CMakeFiles/size-components.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\esp\esp-idf\components\bootloader\subproject D:\esp\esp-idf\components\bootloader\subproject E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles\size-components.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\esp-idf\components\bootloader\subproject G:\esp-idf\components\bootloader\subproject C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles\size-components.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/size-components.dir/depend
 

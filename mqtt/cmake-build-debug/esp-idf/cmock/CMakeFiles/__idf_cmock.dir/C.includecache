@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/cmock/CMock/src/cmock.c
+G:/esp-idf/components/cmock/CMock/src/cmock.c
 cmock.h
-D:/esp/esp-idf/components/cmock/CMock/src/cmock.h
+G:/esp-idf/components/cmock/CMock/src/cmock.h
 
-D:/esp/esp-idf/components/cmock/CMock/src/cmock.h
+G:/esp-idf/components/cmock/CMock/src/cmock.h
 cmock_internals.h
-D:/esp/esp-idf/components/cmock/CMock/src/cmock_internals.h
+G:/esp-idf/components/cmock/CMock/src/cmock_internals.h
 stddef.h
 -
 
-D:/esp/esp-idf/components/cmock/CMock/src/cmock_internals.h
+G:/esp-idf/components/cmock/CMock/src/cmock_internals.h
 unity.h
-D:/esp/esp-idf/components/cmock/CMock/src/unity.h
+G:/esp-idf/components/cmock/CMock/src/unity.h
 stdlib.h
 -
 
-D:/esp/esp-idf/components/esp_common/include/esp_compiler.h
+G:/esp-idf/components/esp_common/include/esp_compiler.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_err.h
+G:/esp-idf/components/esp_common/include/esp_err.h
 stdint.h
 -
 stdio.h
@@ -32,45 +32,45 @@ stdio.h
 assert.h
 -
 
-D:/esp/esp-idf/components/newlib/platform_include/assert.h
+G:/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-D:/esp/esp-idf/components/newlib/platform_include/esp_compiler.h
+G:/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-D:/esp/esp-idf/components/newlib/platform_include/time.h
+G:/esp-idf/components/newlib/platform_include/time.h
 
-D:/esp/esp-idf/components/unity/include/unity_config.h
+G:/esp-idf/components/unity/include/unity_config.h
 esp_err.h
 -
 stddef.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/unity/include/sdkconfig.h
+G:/esp-idf/components/unity/include/sdkconfig.h
 unity_test_runner.h
-D:/esp/esp-idf/components/unity/include/unity_test_runner.h
+G:/esp-idf/components/unity/include/unity_test_runner.h
 unity_fixture_extras.h
-D:/esp/esp-idf/components/unity/include/unity_fixture_extras.h
+G:/esp-idf/components/unity/include/unity_fixture_extras.h
 
-D:/esp/esp-idf/components/unity/include/unity_fixture_extras.h
+G:/esp-idf/components/unity/include/unity_fixture_extras.h
 
-D:/esp/esp-idf/components/unity/include/unity_test_runner.h
+G:/esp-idf/components/unity/include/unity_test_runner.h
 stdint.h
 -
 stdbool.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/unity/include/sdkconfig.h
+G:/esp-idf/components/unity/include/sdkconfig.h
 
-D:/esp/esp-idf/components/unity/unity/src/unity.h
+G:/esp-idf/components/unity/unity/src/unity.h
 unity_internals.h
-D:/esp/esp-idf/components/unity/unity/src/unity_internals.h
+G:/esp-idf/components/unity/unity/src/unity_internals.h
 
-D:/esp/esp-idf/components/unity/unity/src/unity_internals.h
+G:/esp-idf/components/unity/unity/src/unity_internals.h
 unity_config.h
-D:/esp/esp-idf/components/unity/unity/src/unity_config.h
+G:/esp-idf/components/unity/unity/src/unity_config.h
 setjmp.h
 -
 math.h

@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,43 +77,43 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,7 +124,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -144,14 +144,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\tcpip_adapter\\CMakeFiles\progress.marks
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\tcpip_adapter\\CMakeFiles\progress.marks
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/clean
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/rule
 .PHONY : esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ __idf_tcpip_adapter: esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/ru
 
 # fast build rule for target.
 __idf_tcpip_adapter/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/build
 .PHONY : __idf_tcpip_adapter/fast
 
 tcpip_adapter_compat.obj: tcpip_adapter_compat.c.obj
@@ -195,7 +195,7 @@ tcpip_adapter_compat.obj: tcpip_adapter_compat.c.obj
 
 # target to build an object file
 tcpip_adapter_compat.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/tcpip_adapter_compat.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/tcpip_adapter_compat.c.obj
 .PHONY : tcpip_adapter_compat.c.obj
 
 tcpip_adapter_compat.i: tcpip_adapter_compat.c.i
@@ -204,7 +204,7 @@ tcpip_adapter_compat.i: tcpip_adapter_compat.c.i
 
 # target to preprocess a source file
 tcpip_adapter_compat.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/tcpip_adapter_compat.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/tcpip_adapter_compat.c.i
 .PHONY : tcpip_adapter_compat.c.i
 
 tcpip_adapter_compat.s: tcpip_adapter_compat.c.s
@@ -213,7 +213,7 @@ tcpip_adapter_compat.s: tcpip_adapter_compat.c.s
 
 # target to generate assembly for a file
 tcpip_adapter_compat.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/tcpip_adapter_compat.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/tcpip_adapter_compat.c.s
 .PHONY : tcpip_adapter_compat.c.s
 
 # Help Target
@@ -243,6 +243,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,68 +1,23 @@
-"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-8.4.0.exe -DCMAKE_CXX_COMPILER=D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe -G "CodeBlocks - MinGW Makefiles" E:\EPS32\esp32_test\mqtt
--- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt
 -- Building ESP-IDF components for target esp32
 -- Checking Python dependencies...
-Python requirements from D:\esp\esp-idf\requirements.txt are satisfied.
--- Project sdkconfig file E:/EPS32/esp32_test/mqtt/sdkconfig
-Loading defaults file E:/EPS32/esp32_test/mqtt/sdkconfig.defaults...
+Python requirements from G:\esp-idf\requirements.txt are satisfied.
+-- Project sdkconfig file C:/Users/wl/Desktop/esp32-demo/mqtt/sdkconfig
+Loading defaults file C:/Users/wl/Desktop/esp32-demo/mqtt/sdkconfig.defaults...
 -- Could NOT find Perl (missing: PERL_EXECUTABLE) 
--- App "mqtt_tcp" version: 1
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
--- Adding linker script E:/EPS32/esp32_test/mqtt/cmake-build-debug/esp-idf/esp32/esp32_out.ld
--- Adding linker script D:/esp/esp-idf/components/esp32/ld/esp32.project.ld.in
--- Adding linker script D:/esp/esp-idf/components/esp32/ld/esp32.peripherals.ld
+-- App "mqtt_tcp" version: 88598aa8-dirty
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+-- Adding linker script C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/esp-idf/esp32/esp32_out.ld
+-- Adding linker script G:/esp-idf/components/esp32/ld/esp32.project.ld.in
+-- Adding linker script G:/esp-idf/components/esp32/ld/esp32.peripherals.ld
 -- Components: app_trace app_update asio bootloader bootloader_support bt cbor cmock coap console cxx driver efuse esp-tls esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_ipc esp_local_ctrl esp_netif esp_pm esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos hal heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter tinyusb ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
--- Component paths: D:/esp/esp-idf/components/app_trace D:/esp/esp-idf/components/app_update D:/esp/esp-idf/components/asio D:/esp/esp-idf/components/bootloader D:/esp/esp-idf/components/bootloader_support D:/esp/esp-idf/components/bt D:/esp/esp-idf/components/cbor D:/esp/esp-idf/components/cmock D:/esp/esp-idf/components/coap D:/esp/esp-idf/components/console D:/esp/esp-idf/components/cxx D:/esp/esp-idf/components/driver D:/esp/esp-idf/components/efuse D:/esp/esp-idf/components/esp-tls D:/esp/esp-idf/components/esp32 D:/esp/esp-idf/components/esp_adc_cal D:/esp/esp-idf/components/esp_common D:/esp/esp-idf/components/esp_eth D:/esp/esp-idf/components/esp_event D:/esp/esp-idf/components/esp_gdbstub D:/esp/esp-idf/components/esp_hid D:/esp/esp-idf/components/esp_http_client D:/esp/esp-idf/components/esp_http_server D:/esp/esp-idf/components/esp_https_ota D:/esp/esp-idf/components/esp_https_server D:/esp/esp-idf/components/esp_hw_support D:/esp/esp-idf/components/esp_ipc D:/esp/esp-idf/components/esp_local_ctrl D:/esp/esp-idf/components/esp_netif D:/esp/esp-idf/components/esp_pm D:/esp/esp-idf/components/esp_ringbuf D:/esp/esp-idf/components/esp_rom D:/esp/esp-idf/components/esp_serial_slave_link D:/esp/esp-idf/components/esp_system D:/esp/esp-idf/components/esp_timer D:/esp/esp-idf/components/esp_websocket_client D:/esp/esp-idf/components/esp_wifi D:/esp/esp-idf/components/espcoredump D:/esp/esp-idf/components/esptool_py D:/esp/esp-idf/components/expat D:/esp/esp-idf/components/fatfs D:/esp/esp-idf/components/freemodbus D:/esp/esp-idf/components/freertos D:/esp/esp-idf/components/hal D:/esp/esp-idf/components/heap D:/esp/esp-idf/components/idf_test D:/esp/esp-idf/components/jsmn D:/esp/esp-idf/components/json D:/esp/esp-idf/components/libsodium D:/esp/esp-idf/components/log D:/esp/esp-idf/components/lwip E:/EPS32/esp32_test/mqtt/main D:/esp/esp-idf/components/mbedtls D:/esp/esp-idf/components/mdns D:/esp/esp-idf/components/mqtt D:/esp/esp-idf/components/newlib D:/esp/esp-idf/components/nghttp D:/esp/esp-idf/components/nvs_flash D:/esp/esp-idf/components/openssl D:/esp/esp-idf/components/partition_table D:/esp/esp-idf/components/perfmon D:/esp/esp-idf/components/protobuf-c D:/esp/esp-idf/examples/common_components/protocol_examples_common D:/esp/esp-idf/components/protocomm D:/esp/esp-idf/components/pthread D:/esp/esp-idf/components/sdmmc D:/esp/esp-idf/components/soc D:/esp/esp-idf/components/spi_flash D:/esp/esp-idf/components/spiffs D:/esp/esp-idf/components/tcp_transport D:/esp/esp-idf/components/tcpip_adapter D:/esp/esp-idf/components/tinyusb D:/esp/esp-idf/components/ulp D:/esp/esp-idf/components/unity D:/esp/esp-idf/components/vfs D:/esp/esp-idf/components/wear_levelling D:/esp/esp-idf/components/wifi_provisioning D:/esp/esp-idf/components/wpa_supplicant D:/esp/esp-idf/components/xtensa
--- Configuring done
-You have changed variables that require your cache to be deleted.
-Configure will be re-run and you may have to reset some variables.
-The following variables have changed:
-CMAKE_C_COMPILER= D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-8.4.0.exe
-CMAKE_C_COMPILER= D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-8.4.0.exe
-CMAKE_C_COMPILER= D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc-8.4.0.exe
-
--- Found Git: D:/Program Files/Git/cmd/git.exe (found version "2.30.1.windows.1") 
--- The C compiler identification is GNU 8.4.0
--- The CXX compiler identification is GNU 8.4.0
--- The ASM compiler identification is GNU
--- Found assembler: D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
--- Building ESP-IDF components for target esp32
--- Checking Python dependencies...
-Python requirements from D:\esp\esp-idf\requirements.txt are satisfied.
--- Project sdkconfig file E:/EPS32/esp32_test/mqtt/sdkconfig
-Loading defaults file E:/EPS32/esp32_test/mqtt/sdkconfig.defaults...
--- Found PythonInterp: D:/esp/espressif/python_env/idf4.3_py3.8_env/Scripts/python.exe (found version "3.8.7") 
--- Could NOT find Perl (missing: PERL_EXECUTABLE) 
--- App "mqtt_tcp" version: 1
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
--- Adding linker script D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
--- Adding linker script E:/EPS32/esp32_test/mqtt/cmake-build-debug/esp-idf/esp32/esp32_out.ld
--- Adding linker script D:/esp/esp-idf/components/esp32/ld/esp32.project.ld.in
--- Adding linker script D:/esp/esp-idf/components/esp32/ld/esp32.peripherals.ld
--- Components: app_trace app_update asio bootloader bootloader_support bt cbor cmock coap console cxx driver efuse esp-tls esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_ipc esp_local_ctrl esp_netif esp_pm esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos hal heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter tinyusb ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
--- Component paths: D:/esp/esp-idf/components/app_trace D:/esp/esp-idf/components/app_update D:/esp/esp-idf/components/asio D:/esp/esp-idf/components/bootloader D:/esp/esp-idf/components/bootloader_support D:/esp/esp-idf/components/bt D:/esp/esp-idf/components/cbor D:/esp/esp-idf/components/cmock D:/esp/esp-idf/components/coap D:/esp/esp-idf/components/console D:/esp/esp-idf/components/cxx D:/esp/esp-idf/components/driver D:/esp/esp-idf/components/efuse D:/esp/esp-idf/components/esp-tls D:/esp/esp-idf/components/esp32 D:/esp/esp-idf/components/esp_adc_cal D:/esp/esp-idf/components/esp_common D:/esp/esp-idf/components/esp_eth D:/esp/esp-idf/components/esp_event D:/esp/esp-idf/components/esp_gdbstub D:/esp/esp-idf/components/esp_hid D:/esp/esp-idf/components/esp_http_client D:/esp/esp-idf/components/esp_http_server D:/esp/esp-idf/components/esp_https_ota D:/esp/esp-idf/components/esp_https_server D:/esp/esp-idf/components/esp_hw_support D:/esp/esp-idf/components/esp_ipc D:/esp/esp-idf/components/esp_local_ctrl D:/esp/esp-idf/components/esp_netif D:/esp/esp-idf/components/esp_pm D:/esp/esp-idf/components/esp_ringbuf D:/esp/esp-idf/components/esp_rom D:/esp/esp-idf/components/esp_serial_slave_link D:/esp/esp-idf/components/esp_system D:/esp/esp-idf/components/esp_timer D:/esp/esp-idf/components/esp_websocket_client D:/esp/esp-idf/components/esp_wifi D:/esp/esp-idf/components/espcoredump D:/esp/esp-idf/components/esptool_py D:/esp/esp-idf/components/expat D:/esp/esp-idf/components/fatfs D:/esp/esp-idf/components/freemodbus D:/esp/esp-idf/components/freertos D:/esp/esp-idf/components/hal D:/esp/esp-idf/components/heap D:/esp/esp-idf/components/idf_test D:/esp/esp-idf/components/jsmn D:/esp/esp-idf/components/json D:/esp/esp-idf/components/libsodium D:/esp/esp-idf/components/log D:/esp/esp-idf/components/lwip E:/EPS32/esp32_test/mqtt/main D:/esp/esp-idf/components/mbedtls D:/esp/esp-idf/components/mdns D:/esp/esp-idf/components/mqtt D:/esp/esp-idf/components/newlib D:/esp/esp-idf/components/nghttp D:/esp/esp-idf/components/nvs_flash D:/esp/esp-idf/components/openssl D:/esp/esp-idf/components/partition_table D:/esp/esp-idf/components/perfmon D:/esp/esp-idf/components/protobuf-c D:/esp/esp-idf/examples/common_components/protocol_examples_common D:/esp/esp-idf/components/protocomm D:/esp/esp-idf/components/pthread D:/esp/esp-idf/components/sdmmc D:/esp/esp-idf/components/soc D:/esp/esp-idf/components/spi_flash D:/esp/esp-idf/components/spiffs D:/esp/esp-idf/components/tcp_transport D:/esp/esp-idf/components/tcpip_adapter D:/esp/esp-idf/components/tinyusb D:/esp/esp-idf/components/ulp D:/esp/esp-idf/components/unity D:/esp/esp-idf/components/vfs D:/esp/esp-idf/components/wear_levelling D:/esp/esp-idf/components/wifi_provisioning D:/esp/esp-idf/components/wpa_supplicant D:/esp/esp-idf/components/xtensa
+-- Component paths: G:/esp-idf/components/app_trace G:/esp-idf/components/app_update G:/esp-idf/components/asio G:/esp-idf/components/bootloader G:/esp-idf/components/bootloader_support G:/esp-idf/components/bt G:/esp-idf/components/cbor G:/esp-idf/components/cmock G:/esp-idf/components/coap G:/esp-idf/components/console G:/esp-idf/components/cxx G:/esp-idf/components/driver G:/esp-idf/components/efuse G:/esp-idf/components/esp-tls G:/esp-idf/components/esp32 G:/esp-idf/components/esp_adc_cal G:/esp-idf/components/esp_common G:/esp-idf/components/esp_eth G:/esp-idf/components/esp_event G:/esp-idf/components/esp_gdbstub G:/esp-idf/components/esp_hid G:/esp-idf/components/esp_http_client G:/esp-idf/components/esp_http_server G:/esp-idf/components/esp_https_ota G:/esp-idf/components/esp_https_server G:/esp-idf/components/esp_hw_support G:/esp-idf/components/esp_ipc G:/esp-idf/components/esp_local_ctrl G:/esp-idf/components/esp_netif G:/esp-idf/components/esp_pm G:/esp-idf/components/esp_ringbuf G:/esp-idf/components/esp_rom G:/esp-idf/components/esp_serial_slave_link G:/esp-idf/components/esp_system G:/esp-idf/components/esp_timer G:/esp-idf/components/esp_websocket_client G:/esp-idf/components/esp_wifi G:/esp-idf/components/espcoredump G:/esp-idf/components/esptool_py G:/esp-idf/components/expat G:/esp-idf/components/fatfs G:/esp-idf/components/freemodbus G:/esp-idf/components/freertos G:/esp-idf/components/hal G:/esp-idf/components/heap G:/esp-idf/components/idf_test G:/esp-idf/components/jsmn G:/esp-idf/components/json G:/esp-idf/components/libsodium G:/esp-idf/components/log G:/esp-idf/components/lwip C:/Users/wl/Desktop/esp32-demo/mqtt/main G:/esp-idf/components/mbedtls G:/esp-idf/components/mdns G:/esp-idf/components/mqtt G:/esp-idf/components/newlib G:/esp-idf/components/nghttp G:/esp-idf/components/nvs_flash G:/esp-idf/components/openssl G:/esp-idf/components/partition_table G:/esp-idf/components/perfmon G:/esp-idf/components/protobuf-c G:/esp-idf/examples/common_components/protocol_examples_common G:/esp-idf/components/protocomm G:/esp-idf/components/pthread G:/esp-idf/components/sdmmc G:/esp-idf/components/soc G:/esp-idf/components/spi_flash G:/esp-idf/components/spiffs G:/esp-idf/components/tcp_transport G:/esp-idf/components/tcpip_adapter G:/esp-idf/components/tinyusb G:/esp-idf/components/ulp G:/esp-idf/components/unity G:/esp-idf/components/vfs G:/esp-idf/components/wear_levelling G:/esp-idf/components/wifi_provisioning G:/esp-idf/components/wpa_supplicant G:/esp-idf/components/xtensa
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/EPS32/esp32_test/mqtt/cmake-build-debug
+-- Build files have been written to: C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug

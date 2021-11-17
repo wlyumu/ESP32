@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/monitor"
   "bootloader.bin"
   "bootloader.map"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
   "project_elf_src_esp32.c"
+  "CMakeFiles/monitor"
 )
 
 # Per-language clean rules from dependency scanning.

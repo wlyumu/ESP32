@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,31 +77,31 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -112,7 +112,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -133,25 +133,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\wear_levelling\\CMakeFiles\progress.marks
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\wear_levelling\\CMakeFiles\progress.marks
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/clean
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
 .PHONY : esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ __idf_wear_levelling: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir
 
 # fast build rule for target.
 __idf_wear_levelling/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build
 .PHONY : __idf_wear_levelling/fast
 
 Partition.obj: Partition.cpp.obj
@@ -195,7 +195,7 @@ Partition.obj: Partition.cpp.obj
 
 # target to build an object file
 Partition.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
 .PHONY : Partition.cpp.obj
 
 Partition.i: Partition.cpp.i
@@ -204,7 +204,7 @@ Partition.i: Partition.cpp.i
 
 # target to preprocess a source file
 Partition.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.i
 .PHONY : Partition.cpp.i
 
 Partition.s: Partition.cpp.s
@@ -213,7 +213,7 @@ Partition.s: Partition.cpp.s
 
 # target to generate assembly for a file
 Partition.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.s
 .PHONY : Partition.cpp.s
 
 SPI_Flash.obj: SPI_Flash.cpp.obj
@@ -222,7 +222,7 @@ SPI_Flash.obj: SPI_Flash.cpp.obj
 
 # target to build an object file
 SPI_Flash.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
 .PHONY : SPI_Flash.cpp.obj
 
 SPI_Flash.i: SPI_Flash.cpp.i
@@ -231,7 +231,7 @@ SPI_Flash.i: SPI_Flash.cpp.i
 
 # target to preprocess a source file
 SPI_Flash.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.i
 .PHONY : SPI_Flash.cpp.i
 
 SPI_Flash.s: SPI_Flash.cpp.s
@@ -240,7 +240,7 @@ SPI_Flash.s: SPI_Flash.cpp.s
 
 # target to generate assembly for a file
 SPI_Flash.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.s
 .PHONY : SPI_Flash.cpp.s
 
 WL_Ext_Perf.obj: WL_Ext_Perf.cpp.obj
@@ -249,7 +249,7 @@ WL_Ext_Perf.obj: WL_Ext_Perf.cpp.obj
 
 # target to build an object file
 WL_Ext_Perf.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
 .PHONY : WL_Ext_Perf.cpp.obj
 
 WL_Ext_Perf.i: WL_Ext_Perf.cpp.i
@@ -258,7 +258,7 @@ WL_Ext_Perf.i: WL_Ext_Perf.cpp.i
 
 # target to preprocess a source file
 WL_Ext_Perf.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.i
 .PHONY : WL_Ext_Perf.cpp.i
 
 WL_Ext_Perf.s: WL_Ext_Perf.cpp.s
@@ -267,7 +267,7 @@ WL_Ext_Perf.s: WL_Ext_Perf.cpp.s
 
 # target to generate assembly for a file
 WL_Ext_Perf.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.s
 .PHONY : WL_Ext_Perf.cpp.s
 
 WL_Ext_Safe.obj: WL_Ext_Safe.cpp.obj
@@ -276,7 +276,7 @@ WL_Ext_Safe.obj: WL_Ext_Safe.cpp.obj
 
 # target to build an object file
 WL_Ext_Safe.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
 .PHONY : WL_Ext_Safe.cpp.obj
 
 WL_Ext_Safe.i: WL_Ext_Safe.cpp.i
@@ -285,7 +285,7 @@ WL_Ext_Safe.i: WL_Ext_Safe.cpp.i
 
 # target to preprocess a source file
 WL_Ext_Safe.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.i
 .PHONY : WL_Ext_Safe.cpp.i
 
 WL_Ext_Safe.s: WL_Ext_Safe.cpp.s
@@ -294,7 +294,7 @@ WL_Ext_Safe.s: WL_Ext_Safe.cpp.s
 
 # target to generate assembly for a file
 WL_Ext_Safe.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.s
 .PHONY : WL_Ext_Safe.cpp.s
 
 WL_Flash.obj: WL_Flash.cpp.obj
@@ -303,7 +303,7 @@ WL_Flash.obj: WL_Flash.cpp.obj
 
 # target to build an object file
 WL_Flash.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
 .PHONY : WL_Flash.cpp.obj
 
 WL_Flash.i: WL_Flash.cpp.i
@@ -312,7 +312,7 @@ WL_Flash.i: WL_Flash.cpp.i
 
 # target to preprocess a source file
 WL_Flash.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.i
 .PHONY : WL_Flash.cpp.i
 
 WL_Flash.s: WL_Flash.cpp.s
@@ -321,7 +321,7 @@ WL_Flash.s: WL_Flash.cpp.s
 
 # target to generate assembly for a file
 WL_Flash.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.s
 .PHONY : WL_Flash.cpp.s
 
 crc32.obj: crc32.cpp.obj
@@ -330,7 +330,7 @@ crc32.obj: crc32.cpp.obj
 
 # target to build an object file
 crc32.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
 .PHONY : crc32.cpp.obj
 
 crc32.i: crc32.cpp.i
@@ -339,7 +339,7 @@ crc32.i: crc32.cpp.i
 
 # target to preprocess a source file
 crc32.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.i
 .PHONY : crc32.cpp.i
 
 crc32.s: crc32.cpp.s
@@ -348,7 +348,7 @@ crc32.s: crc32.cpp.s
 
 # target to generate assembly for a file
 crc32.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.s
 .PHONY : crc32.cpp.s
 
 wear_levelling.obj: wear_levelling.cpp.obj
@@ -357,7 +357,7 @@ wear_levelling.obj: wear_levelling.cpp.obj
 
 # target to build an object file
 wear_levelling.cpp.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
 .PHONY : wear_levelling.cpp.obj
 
 wear_levelling.i: wear_levelling.cpp.i
@@ -366,7 +366,7 @@ wear_levelling.i: wear_levelling.cpp.i
 
 # target to preprocess a source file
 wear_levelling.cpp.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.i
 .PHONY : wear_levelling.cpp.i
 
 wear_levelling.s: wear_levelling.cpp.s
@@ -375,7 +375,7 @@ wear_levelling.s: wear_levelling.cpp.s
 
 # target to generate assembly for a file
 wear_levelling.cpp.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.s
 .PHONY : wear_levelling.cpp.s
 
 # Help Target
@@ -423,6 +423,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

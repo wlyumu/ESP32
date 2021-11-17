@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/app-flash"
   "flasher_args.json.in"
   "../../flash_app_args"
   "../../flasher_args.json"
+  "CMakeFiles/app-flash"
 )
 
 # Per-language clean rules from dependency scanning.

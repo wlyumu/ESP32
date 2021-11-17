@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,43 +77,43 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,7 +124,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -144,14 +144,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_wifi\\CMakeFiles\progress.marks
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_wifi\\CMakeFiles\progress.marks
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/clean
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
 .PHONY : esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ __idf_esp_wifi: esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
 
 # fast build rule for target.
 __idf_esp_wifi/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build
 .PHONY : __idf_esp_wifi/fast
 
 esp32/esp_adapter.obj: esp32/esp_adapter.c.obj
@@ -195,7 +195,7 @@ esp32/esp_adapter.obj: esp32/esp_adapter.c.obj
 
 # target to build an object file
 esp32/esp_adapter.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
 .PHONY : esp32/esp_adapter.c.obj
 
 esp32/esp_adapter.i: esp32/esp_adapter.c.i
@@ -204,7 +204,7 @@ esp32/esp_adapter.i: esp32/esp_adapter.c.i
 
 # target to preprocess a source file
 esp32/esp_adapter.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.i
 .PHONY : esp32/esp_adapter.c.i
 
 esp32/esp_adapter.s: esp32/esp_adapter.c.s
@@ -213,7 +213,7 @@ esp32/esp_adapter.s: esp32/esp_adapter.c.s
 
 # target to generate assembly for a file
 esp32/esp_adapter.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.s
 .PHONY : esp32/esp_adapter.c.s
 
 src/coexist.obj: src/coexist.c.obj
@@ -222,7 +222,7 @@ src/coexist.obj: src/coexist.c.obj
 
 # target to build an object file
 src/coexist.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.obj
 .PHONY : src/coexist.c.obj
 
 src/coexist.i: src/coexist.c.i
@@ -231,7 +231,7 @@ src/coexist.i: src/coexist.c.i
 
 # target to preprocess a source file
 src/coexist.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.i
 .PHONY : src/coexist.c.i
 
 src/coexist.s: src/coexist.c.s
@@ -240,7 +240,7 @@ src/coexist.s: src/coexist.c.s
 
 # target to generate assembly for a file
 src/coexist.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/coexist.c.s
 .PHONY : src/coexist.c.s
 
 src/lib_printf.obj: src/lib_printf.c.obj
@@ -249,7 +249,7 @@ src/lib_printf.obj: src/lib_printf.c.obj
 
 # target to build an object file
 src/lib_printf.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.obj
 .PHONY : src/lib_printf.c.obj
 
 src/lib_printf.i: src/lib_printf.c.i
@@ -258,7 +258,7 @@ src/lib_printf.i: src/lib_printf.c.i
 
 # target to preprocess a source file
 src/lib_printf.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.i
 .PHONY : src/lib_printf.c.i
 
 src/lib_printf.s: src/lib_printf.c.s
@@ -267,7 +267,7 @@ src/lib_printf.s: src/lib_printf.c.s
 
 # target to generate assembly for a file
 src/lib_printf.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.s
 .PHONY : src/lib_printf.c.s
 
 src/mesh_event.obj: src/mesh_event.c.obj
@@ -276,7 +276,7 @@ src/mesh_event.obj: src/mesh_event.c.obj
 
 # target to build an object file
 src/mesh_event.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj
 .PHONY : src/mesh_event.c.obj
 
 src/mesh_event.i: src/mesh_event.c.i
@@ -285,7 +285,7 @@ src/mesh_event.i: src/mesh_event.c.i
 
 # target to preprocess a source file
 src/mesh_event.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.i
 .PHONY : src/mesh_event.c.i
 
 src/mesh_event.s: src/mesh_event.c.s
@@ -294,7 +294,7 @@ src/mesh_event.s: src/mesh_event.c.s
 
 # target to generate assembly for a file
 src/mesh_event.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.s
 .PHONY : src/mesh_event.c.s
 
 src/phy_init.obj: src/phy_init.c.obj
@@ -303,7 +303,7 @@ src/phy_init.obj: src/phy_init.c.obj
 
 # target to build an object file
 src/phy_init.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/phy_init.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/phy_init.c.obj
 .PHONY : src/phy_init.c.obj
 
 src/phy_init.i: src/phy_init.c.i
@@ -312,7 +312,7 @@ src/phy_init.i: src/phy_init.c.i
 
 # target to preprocess a source file
 src/phy_init.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/phy_init.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/phy_init.c.i
 .PHONY : src/phy_init.c.i
 
 src/phy_init.s: src/phy_init.c.s
@@ -321,7 +321,7 @@ src/phy_init.s: src/phy_init.c.s
 
 # target to generate assembly for a file
 src/phy_init.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/phy_init.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/phy_init.c.s
 .PHONY : src/phy_init.c.s
 
 src/smartconfig.obj: src/smartconfig.c.obj
@@ -330,7 +330,7 @@ src/smartconfig.obj: src/smartconfig.c.obj
 
 # target to build an object file
 src/smartconfig.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj
 .PHONY : src/smartconfig.c.obj
 
 src/smartconfig.i: src/smartconfig.c.i
@@ -339,7 +339,7 @@ src/smartconfig.i: src/smartconfig.c.i
 
 # target to preprocess a source file
 src/smartconfig.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.i
 .PHONY : src/smartconfig.c.i
 
 src/smartconfig.s: src/smartconfig.c.s
@@ -348,7 +348,7 @@ src/smartconfig.s: src/smartconfig.c.s
 
 # target to generate assembly for a file
 src/smartconfig.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.s
 .PHONY : src/smartconfig.c.s
 
 src/smartconfig_ack.obj: src/smartconfig_ack.c.obj
@@ -357,7 +357,7 @@ src/smartconfig_ack.obj: src/smartconfig_ack.c.obj
 
 # target to build an object file
 src/smartconfig_ack.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj
 .PHONY : src/smartconfig_ack.c.obj
 
 src/smartconfig_ack.i: src/smartconfig_ack.c.i
@@ -366,7 +366,7 @@ src/smartconfig_ack.i: src/smartconfig_ack.c.i
 
 # target to preprocess a source file
 src/smartconfig_ack.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.i
 .PHONY : src/smartconfig_ack.c.i
 
 src/smartconfig_ack.s: src/smartconfig_ack.c.s
@@ -375,7 +375,7 @@ src/smartconfig_ack.s: src/smartconfig_ack.c.s
 
 # target to generate assembly for a file
 src/smartconfig_ack.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.s
 .PHONY : src/smartconfig_ack.c.s
 
 src/wifi_default.obj: src/wifi_default.c.obj
@@ -384,7 +384,7 @@ src/wifi_default.obj: src/wifi_default.c.obj
 
 # target to build an object file
 src/wifi_default.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj
 .PHONY : src/wifi_default.c.obj
 
 src/wifi_default.i: src/wifi_default.c.i
@@ -393,7 +393,7 @@ src/wifi_default.i: src/wifi_default.c.i
 
 # target to preprocess a source file
 src/wifi_default.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.i
 .PHONY : src/wifi_default.c.i
 
 src/wifi_default.s: src/wifi_default.c.s
@@ -402,7 +402,7 @@ src/wifi_default.s: src/wifi_default.c.s
 
 # target to generate assembly for a file
 src/wifi_default.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.s
 .PHONY : src/wifi_default.c.s
 
 src/wifi_init.obj: src/wifi_init.c.obj
@@ -411,7 +411,7 @@ src/wifi_init.obj: src/wifi_init.c.obj
 
 # target to build an object file
 src/wifi_init.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
 .PHONY : src/wifi_init.c.obj
 
 src/wifi_init.i: src/wifi_init.c.i
@@ -420,7 +420,7 @@ src/wifi_init.i: src/wifi_init.c.i
 
 # target to preprocess a source file
 src/wifi_init.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.i
 .PHONY : src/wifi_init.c.i
 
 src/wifi_init.s: src/wifi_init.c.s
@@ -429,7 +429,7 @@ src/wifi_init.s: src/wifi_init.c.s
 
 # target to generate assembly for a file
 src/wifi_init.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.s
 .PHONY : src/wifi_init.c.s
 
 src/wifi_netif.obj: src/wifi_netif.c.obj
@@ -438,7 +438,7 @@ src/wifi_netif.obj: src/wifi_netif.c.obj
 
 # target to build an object file
 src/wifi_netif.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj
 .PHONY : src/wifi_netif.c.obj
 
 src/wifi_netif.i: src/wifi_netif.c.i
@@ -447,7 +447,7 @@ src/wifi_netif.i: src/wifi_netif.c.i
 
 # target to preprocess a source file
 src/wifi_netif.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.i
 .PHONY : src/wifi_netif.c.i
 
 src/wifi_netif.s: src/wifi_netif.c.s
@@ -456,7 +456,7 @@ src/wifi_netif.s: src/wifi_netif.c.s
 
 # target to generate assembly for a file
 src/wifi_netif.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.s
 .PHONY : src/wifi_netif.c.s
 
 # Help Target
@@ -513,6 +513,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

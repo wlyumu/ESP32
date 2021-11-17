@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include esp-idf/soc/CMakeFiles/__idf_soc.dir/depend.make
@@ -76,277 +76,277 @@ include esp-idf/soc/CMakeFiles/__idf_soc.dir/progress.make
 include esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: D:/esp/esp-idf/components/soc/lldesc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\lldesc.c.obj -c D:\esp\esp-idf\components\soc\lldesc.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj: G:/esp-idf/components/soc/lldesc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\lldesc.c.obj -c G:\esp-idf\components\soc\lldesc.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/lldesc.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\lldesc.c > CMakeFiles\__idf_soc.dir\lldesc.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\lldesc.c > CMakeFiles\__idf_soc.dir\lldesc.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/lldesc.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\lldesc.c -o CMakeFiles\__idf_soc.dir\lldesc.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\lldesc.c -o CMakeFiles\__idf_soc.dir\lldesc.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj: D:/esp/esp-idf/components/soc/soc_include_legacy_warn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\soc_include_legacy_warn.c.obj -c D:\esp\esp-idf\components\soc\soc_include_legacy_warn.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj: G:/esp-idf/components/soc/soc_include_legacy_warn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\soc_include_legacy_warn.c.obj -c G:\esp-idf\components\soc\soc_include_legacy_warn.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\soc_include_legacy_warn.c > CMakeFiles\__idf_soc.dir\soc_include_legacy_warn.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\soc_include_legacy_warn.c > CMakeFiles\__idf_soc.dir\soc_include_legacy_warn.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\soc_include_legacy_warn.c -o CMakeFiles\__idf_soc.dir\soc_include_legacy_warn.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\soc_include_legacy_warn.c -o CMakeFiles\__idf_soc.dir\soc_include_legacy_warn.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj: D:/esp/esp-idf/components/soc/memory_layout_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\memory_layout_utils.c.obj -c D:\esp\esp-idf\components\soc\memory_layout_utils.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj: G:/esp-idf/components/soc/memory_layout_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\memory_layout_utils.c.obj -c G:\esp-idf\components\soc\memory_layout_utils.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/memory_layout_utils.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\memory_layout_utils.c > CMakeFiles\__idf_soc.dir\memory_layout_utils.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\memory_layout_utils.c > CMakeFiles\__idf_soc.dir\memory_layout_utils.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/memory_layout_utils.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\memory_layout_utils.c -o CMakeFiles\__idf_soc.dir\memory_layout_utils.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\memory_layout_utils.c -o CMakeFiles\__idf_soc.dir\memory_layout_utils.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/adc_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\adc_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\adc_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj: G:/esp-idf/components/soc/esp32/adc_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\adc_periph.c.obj -c G:\esp-idf\components\soc\esp32\adc_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\adc_periph.c > CMakeFiles\__idf_soc.dir\esp32\adc_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\adc_periph.c > CMakeFiles\__idf_soc.dir\esp32\adc_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\adc_periph.c -o CMakeFiles\__idf_soc.dir\esp32\adc_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\adc_periph.c -o CMakeFiles\__idf_soc.dir\esp32\adc_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/dac_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\dac_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\dac_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj: G:/esp-idf/components/soc/esp32/dac_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\dac_periph.c.obj -c G:\esp-idf\components\soc\esp32\dac_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\dac_periph.c > CMakeFiles\__idf_soc.dir\esp32\dac_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\dac_periph.c > CMakeFiles\__idf_soc.dir\esp32\dac_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\dac_periph.c -o CMakeFiles\__idf_soc.dir\esp32\dac_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\dac_periph.c -o CMakeFiles\__idf_soc.dir\esp32\dac_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/gpio_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\gpio_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\gpio_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj: G:/esp-idf/components/soc/esp32/gpio_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\gpio_periph.c.obj -c G:\esp-idf\components\soc\esp32\gpio_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\gpio_periph.c > CMakeFiles\__idf_soc.dir\esp32\gpio_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\gpio_periph.c > CMakeFiles\__idf_soc.dir\esp32\gpio_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\gpio_periph.c -o CMakeFiles\__idf_soc.dir\esp32\gpio_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\gpio_periph.c -o CMakeFiles\__idf_soc.dir\esp32\gpio_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/i2c_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\i2c_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\i2c_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj: G:/esp-idf/components/soc/esp32/i2c_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\i2c_periph.c.obj -c G:\esp-idf\components\soc\esp32\i2c_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\i2c_periph.c > CMakeFiles\__idf_soc.dir\esp32\i2c_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\i2c_periph.c > CMakeFiles\__idf_soc.dir\esp32\i2c_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\i2c_periph.c -o CMakeFiles\__idf_soc.dir\esp32\i2c_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\i2c_periph.c -o CMakeFiles\__idf_soc.dir\esp32\i2c_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/i2s_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\i2s_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\i2s_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj: G:/esp-idf/components/soc/esp32/i2s_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\i2s_periph.c.obj -c G:\esp-idf\components\soc\esp32\i2s_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\i2s_periph.c > CMakeFiles\__idf_soc.dir\esp32\i2s_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\i2s_periph.c > CMakeFiles\__idf_soc.dir\esp32\i2s_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\i2s_periph.c -o CMakeFiles\__idf_soc.dir\esp32\i2s_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\i2s_periph.c -o CMakeFiles\__idf_soc.dir\esp32\i2s_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj: D:/esp/esp-idf/components/soc/esp32/interrupts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\interrupts.c.obj -c D:\esp\esp-idf\components\soc\esp32\interrupts.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj: G:/esp-idf/components/soc/esp32/interrupts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\interrupts.c.obj -c G:\esp-idf\components\soc\esp32\interrupts.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\interrupts.c > CMakeFiles\__idf_soc.dir\esp32\interrupts.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\interrupts.c > CMakeFiles\__idf_soc.dir\esp32\interrupts.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\interrupts.c -o CMakeFiles\__idf_soc.dir\esp32\interrupts.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\interrupts.c -o CMakeFiles\__idf_soc.dir\esp32\interrupts.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/ledc_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\ledc_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\ledc_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj: G:/esp-idf/components/soc/esp32/ledc_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\ledc_periph.c.obj -c G:\esp-idf\components\soc\esp32\ledc_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\ledc_periph.c > CMakeFiles\__idf_soc.dir\esp32\ledc_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\ledc_periph.c > CMakeFiles\__idf_soc.dir\esp32\ledc_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\ledc_periph.c -o CMakeFiles\__idf_soc.dir\esp32\ledc_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\ledc_periph.c -o CMakeFiles\__idf_soc.dir\esp32\ledc_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/pcnt_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\pcnt_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\pcnt_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj: G:/esp-idf/components/soc/esp32/pcnt_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\pcnt_periph.c.obj -c G:\esp-idf\components\soc\esp32\pcnt_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\pcnt_periph.c > CMakeFiles\__idf_soc.dir\esp32\pcnt_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\pcnt_periph.c > CMakeFiles\__idf_soc.dir\esp32\pcnt_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\pcnt_periph.c -o CMakeFiles\__idf_soc.dir\esp32\pcnt_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\pcnt_periph.c -o CMakeFiles\__idf_soc.dir\esp32\pcnt_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/rmt_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\rmt_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\rmt_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj: G:/esp-idf/components/soc/esp32/rmt_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\rmt_periph.c.obj -c G:\esp-idf\components\soc\esp32\rmt_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\rmt_periph.c > CMakeFiles\__idf_soc.dir\esp32\rmt_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\rmt_periph.c > CMakeFiles\__idf_soc.dir\esp32\rmt_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\rmt_periph.c -o CMakeFiles\__idf_soc.dir\esp32\rmt_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\rmt_periph.c -o CMakeFiles\__idf_soc.dir\esp32\rmt_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/rtc_io_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\rtc_io_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\rtc_io_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj: G:/esp-idf/components/soc/esp32/rtc_io_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\rtc_io_periph.c.obj -c G:\esp-idf\components\soc\esp32\rtc_io_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\rtc_io_periph.c > CMakeFiles\__idf_soc.dir\esp32\rtc_io_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\rtc_io_periph.c > CMakeFiles\__idf_soc.dir\esp32\rtc_io_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\rtc_io_periph.c -o CMakeFiles\__idf_soc.dir\esp32\rtc_io_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\rtc_io_periph.c -o CMakeFiles\__idf_soc.dir\esp32\rtc_io_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/sdio_slave_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\sdio_slave_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\sdio_slave_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj: G:/esp-idf/components/soc/esp32/sdio_slave_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\sdio_slave_periph.c.obj -c G:\esp-idf\components\soc\esp32\sdio_slave_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\sdio_slave_periph.c > CMakeFiles\__idf_soc.dir\esp32\sdio_slave_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\sdio_slave_periph.c > CMakeFiles\__idf_soc.dir\esp32\sdio_slave_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\sdio_slave_periph.c -o CMakeFiles\__idf_soc.dir\esp32\sdio_slave_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\sdio_slave_periph.c -o CMakeFiles\__idf_soc.dir\esp32\sdio_slave_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/sdmmc_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\sdmmc_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\sdmmc_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj: G:/esp-idf/components/soc/esp32/sdmmc_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\sdmmc_periph.c.obj -c G:\esp-idf\components\soc\esp32\sdmmc_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\sdmmc_periph.c > CMakeFiles\__idf_soc.dir\esp32\sdmmc_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\sdmmc_periph.c > CMakeFiles\__idf_soc.dir\esp32\sdmmc_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\sdmmc_periph.c -o CMakeFiles\__idf_soc.dir\esp32\sdmmc_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\sdmmc_periph.c -o CMakeFiles\__idf_soc.dir\esp32\sdmmc_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/sigmadelta_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\sigmadelta_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\sigmadelta_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj: G:/esp-idf/components/soc/esp32/sigmadelta_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\sigmadelta_periph.c.obj -c G:\esp-idf\components\soc\esp32\sigmadelta_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\sigmadelta_periph.c > CMakeFiles\__idf_soc.dir\esp32\sigmadelta_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\sigmadelta_periph.c > CMakeFiles\__idf_soc.dir\esp32\sigmadelta_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\sigmadelta_periph.c -o CMakeFiles\__idf_soc.dir\esp32\sigmadelta_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\sigmadelta_periph.c -o CMakeFiles\__idf_soc.dir\esp32\sigmadelta_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj: D:/esp/esp-idf/components/soc/esp32/soc_memory_layout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\soc_memory_layout.c.obj -c D:\esp\esp-idf\components\soc\esp32\soc_memory_layout.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj: G:/esp-idf/components/soc/esp32/soc_memory_layout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\soc_memory_layout.c.obj -c G:\esp-idf\components\soc\esp32\soc_memory_layout.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\soc_memory_layout.c > CMakeFiles\__idf_soc.dir\esp32\soc_memory_layout.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\soc_memory_layout.c > CMakeFiles\__idf_soc.dir\esp32\soc_memory_layout.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\soc_memory_layout.c -o CMakeFiles\__idf_soc.dir\esp32\soc_memory_layout.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\soc_memory_layout.c -o CMakeFiles\__idf_soc.dir\esp32\soc_memory_layout.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/spi_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\spi_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\spi_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj: G:/esp-idf/components/soc/esp32/spi_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\spi_periph.c.obj -c G:\esp-idf\components\soc\esp32\spi_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\spi_periph.c > CMakeFiles\__idf_soc.dir\esp32\spi_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\spi_periph.c > CMakeFiles\__idf_soc.dir\esp32\spi_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\spi_periph.c -o CMakeFiles\__idf_soc.dir\esp32\spi_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\spi_periph.c -o CMakeFiles\__idf_soc.dir\esp32\spi_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/timer_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\timer_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\timer_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj: G:/esp-idf/components/soc/esp32/timer_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\timer_periph.c.obj -c G:\esp-idf\components\soc\esp32\timer_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\timer_periph.c > CMakeFiles\__idf_soc.dir\esp32\timer_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\timer_periph.c > CMakeFiles\__idf_soc.dir\esp32\timer_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\timer_periph.c -o CMakeFiles\__idf_soc.dir\esp32\timer_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\timer_periph.c -o CMakeFiles\__idf_soc.dir\esp32\timer_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/touch_sensor_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\touch_sensor_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\touch_sensor_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj: G:/esp-idf/components/soc/esp32/touch_sensor_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\touch_sensor_periph.c.obj -c G:\esp-idf\components\soc\esp32\touch_sensor_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\touch_sensor_periph.c > CMakeFiles\__idf_soc.dir\esp32\touch_sensor_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\touch_sensor_periph.c > CMakeFiles\__idf_soc.dir\esp32\touch_sensor_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\touch_sensor_periph.c -o CMakeFiles\__idf_soc.dir\esp32\touch_sensor_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\touch_sensor_periph.c -o CMakeFiles\__idf_soc.dir\esp32\touch_sensor_periph.c.s
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj: esp-idf/soc/CMakeFiles/__idf_soc.dir/flags.make
-esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj: D:/esp/esp-idf/components/soc/esp32/uart_periph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\uart_periph.c.obj -c D:\esp\esp-idf\components\soc\esp32\uart_periph.c
+esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj: G:/esp-idf/components/soc/esp32/uart_periph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_soc.dir\esp32\uart_periph.c.obj -c G:\esp-idf\components\soc\esp32\uart_periph.c
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\soc\esp32\uart_periph.c > CMakeFiles\__idf_soc.dir\esp32\uart_periph.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\soc\esp32\uart_periph.c > CMakeFiles\__idf_soc.dir\esp32\uart_periph.c.i
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\soc\esp32\uart_periph.c -o CMakeFiles\__idf_soc.dir\esp32\uart_periph.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\soc\esp32\uart_periph.c -o CMakeFiles\__idf_soc.dir\esp32\uart_periph.c.s
 
 # Object files for target __idf_soc
 __idf_soc_OBJECTS = \
@@ -398,9 +398,9 @@ esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_pe
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make
 esp-idf/soc/libsoc.a: esp-idf/soc/CMakeFiles/__idf_soc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libsoc.a"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && $(CMAKE_COMMAND) -P CMakeFiles\__idf_soc.dir\cmake_clean_target.cmake
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_soc.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libsoc.a"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && $(CMAKE_COMMAND) -P CMakeFiles\__idf_soc.dir\cmake_clean_target.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_soc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/build: esp-idf/soc/libsoc.a
@@ -408,10 +408,10 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/build: esp-idf/soc/libsoc.a
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/build
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc && $(CMAKE_COMMAND) -P CMakeFiles\__idf_soc.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc && $(CMAKE_COMMAND) -P CMakeFiles\__idf_soc.dir\cmake_clean.cmake
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/clean
 
 esp-idf/soc/CMakeFiles/__idf_soc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\components\soc E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\soc\CMakeFiles\__idf_soc.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\components\soc C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\soc\CMakeFiles\__idf_soc.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/depend
 

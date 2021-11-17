@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/json/cJSON/cJSON.c
+G:/esp-idf/components/json/cJSON/cJSON.c
 string.h
 -
 stdio.h
@@ -24,13 +24,13 @@ float.h
 locale.h
 -
 cJSON.h
-D:/esp/esp-idf/components/json/cJSON/cJSON.h
+G:/esp-idf/components/json/cJSON/cJSON.h
 
-D:/esp/esp-idf/components/json/cJSON/cJSON.h
+G:/esp-idf/components/json/cJSON/cJSON.h
 stddef.h
 -
 
-D:/esp/esp-idf/components/json/cJSON/cJSON_Utils.c
+G:/esp-idf/components/json/cJSON/cJSON_Utils.c
 ctype.h
 -
 string.h
@@ -48,9 +48,9 @@ float.h
 math.h
 -
 cJSON_Utils.h
-D:/esp/esp-idf/components/json/cJSON/cJSON_Utils.h
+G:/esp-idf/components/json/cJSON/cJSON_Utils.h
 
-D:/esp/esp-idf/components/json/cJSON/cJSON_Utils.h
+G:/esp-idf/components/json/cJSON/cJSON_Utils.h
 cJSON.h
-D:/esp/esp-idf/components/json/cJSON/cJSON.h
+G:/esp-idf/components/json/cJSON/cJSON.h
 

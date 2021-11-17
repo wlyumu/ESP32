@@ -1,2 +1,2 @@
-D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc libesp_websocket_client.a CMakeFiles/__idf_esp_websocket_client.dir/esp_websocket_client.c.obj
-D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe libesp_websocket_client.a
+G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc libesp_websocket_client.a CMakeFiles/__idf_esp_websocket_client.dir/esp_websocket_client.c.obj
+G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe libesp_websocket_client.a

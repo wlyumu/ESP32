@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../../favicon.ico.S"
   "../../upload_script.html.S"
+  "../../favicon.ico.S"
+  "../../upload_script.html.S"
   "CMakeFiles/__idf_main.dir/__/ATT7053/ATT7053.c.obj"
   "CMakeFiles/__idf_main.dir/__/__/favicon.ico.S.obj"
   "CMakeFiles/__idf_main.dir/__/__/upload_script.html.S.obj"
@@ -17,8 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/__/wifi/wifi_connect.c.obj"
   "CMakeFiles/__idf_main.dir/__/wifi/wifi_connect_mgr.c.obj"
   "CMakeFiles/__idf_main.dir/app_main.c.obj"
-  "../../favicon.ico.S"
-  "../../upload_script.html.S"
   "libmain.a"
   "libmain.pdb"
 )

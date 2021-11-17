@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,43 +77,43 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,7 +124,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -144,14 +144,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\sdmmc\\CMakeFiles\progress.marks
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\sdmmc\\CMakeFiles\progress.marks
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/clean
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ __idf_sdmmc: esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
 
 # fast build rule for target.
 __idf_sdmmc/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build
 .PHONY : __idf_sdmmc/fast
 
 sdmmc_cmd.obj: sdmmc_cmd.c.obj
@@ -195,7 +195,7 @@ sdmmc_cmd.obj: sdmmc_cmd.c.obj
 
 # target to build an object file
 sdmmc_cmd.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj
 .PHONY : sdmmc_cmd.c.obj
 
 sdmmc_cmd.i: sdmmc_cmd.c.i
@@ -204,7 +204,7 @@ sdmmc_cmd.i: sdmmc_cmd.c.i
 
 # target to preprocess a source file
 sdmmc_cmd.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.i
 .PHONY : sdmmc_cmd.c.i
 
 sdmmc_cmd.s: sdmmc_cmd.c.s
@@ -213,7 +213,7 @@ sdmmc_cmd.s: sdmmc_cmd.c.s
 
 # target to generate assembly for a file
 sdmmc_cmd.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.s
 .PHONY : sdmmc_cmd.c.s
 
 sdmmc_common.obj: sdmmc_common.c.obj
@@ -222,7 +222,7 @@ sdmmc_common.obj: sdmmc_common.c.obj
 
 # target to build an object file
 sdmmc_common.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj
 .PHONY : sdmmc_common.c.obj
 
 sdmmc_common.i: sdmmc_common.c.i
@@ -231,7 +231,7 @@ sdmmc_common.i: sdmmc_common.c.i
 
 # target to preprocess a source file
 sdmmc_common.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.i
 .PHONY : sdmmc_common.c.i
 
 sdmmc_common.s: sdmmc_common.c.s
@@ -240,7 +240,7 @@ sdmmc_common.s: sdmmc_common.c.s
 
 # target to generate assembly for a file
 sdmmc_common.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.s
 .PHONY : sdmmc_common.c.s
 
 sdmmc_init.obj: sdmmc_init.c.obj
@@ -249,7 +249,7 @@ sdmmc_init.obj: sdmmc_init.c.obj
 
 # target to build an object file
 sdmmc_init.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj
 .PHONY : sdmmc_init.c.obj
 
 sdmmc_init.i: sdmmc_init.c.i
@@ -258,7 +258,7 @@ sdmmc_init.i: sdmmc_init.c.i
 
 # target to preprocess a source file
 sdmmc_init.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.i
 .PHONY : sdmmc_init.c.i
 
 sdmmc_init.s: sdmmc_init.c.s
@@ -267,7 +267,7 @@ sdmmc_init.s: sdmmc_init.c.s
 
 # target to generate assembly for a file
 sdmmc_init.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.s
 .PHONY : sdmmc_init.c.s
 
 sdmmc_io.obj: sdmmc_io.c.obj
@@ -276,7 +276,7 @@ sdmmc_io.obj: sdmmc_io.c.obj
 
 # target to build an object file
 sdmmc_io.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj
 .PHONY : sdmmc_io.c.obj
 
 sdmmc_io.i: sdmmc_io.c.i
@@ -285,7 +285,7 @@ sdmmc_io.i: sdmmc_io.c.i
 
 # target to preprocess a source file
 sdmmc_io.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.i
 .PHONY : sdmmc_io.c.i
 
 sdmmc_io.s: sdmmc_io.c.s
@@ -294,7 +294,7 @@ sdmmc_io.s: sdmmc_io.c.s
 
 # target to generate assembly for a file
 sdmmc_io.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.s
 .PHONY : sdmmc_io.c.s
 
 sdmmc_mmc.obj: sdmmc_mmc.c.obj
@@ -303,7 +303,7 @@ sdmmc_mmc.obj: sdmmc_mmc.c.obj
 
 # target to build an object file
 sdmmc_mmc.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj
 .PHONY : sdmmc_mmc.c.obj
 
 sdmmc_mmc.i: sdmmc_mmc.c.i
@@ -312,7 +312,7 @@ sdmmc_mmc.i: sdmmc_mmc.c.i
 
 # target to preprocess a source file
 sdmmc_mmc.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.i
 .PHONY : sdmmc_mmc.c.i
 
 sdmmc_mmc.s: sdmmc_mmc.c.s
@@ -321,7 +321,7 @@ sdmmc_mmc.s: sdmmc_mmc.c.s
 
 # target to generate assembly for a file
 sdmmc_mmc.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.s
 .PHONY : sdmmc_mmc.c.s
 
 sdmmc_sd.obj: sdmmc_sd.c.obj
@@ -330,7 +330,7 @@ sdmmc_sd.obj: sdmmc_sd.c.obj
 
 # target to build an object file
 sdmmc_sd.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
 .PHONY : sdmmc_sd.c.obj
 
 sdmmc_sd.i: sdmmc_sd.c.i
@@ -339,7 +339,7 @@ sdmmc_sd.i: sdmmc_sd.c.i
 
 # target to preprocess a source file
 sdmmc_sd.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.i
 .PHONY : sdmmc_sd.c.i
 
 sdmmc_sd.s: sdmmc_sd.c.s
@@ -348,7 +348,7 @@ sdmmc_sd.s: sdmmc_sd.c.s
 
 # target to generate assembly for a file
 sdmmc_sd.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.s
 .PHONY : sdmmc_sd.c.s
 
 # Help Target
@@ -393,6 +393,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

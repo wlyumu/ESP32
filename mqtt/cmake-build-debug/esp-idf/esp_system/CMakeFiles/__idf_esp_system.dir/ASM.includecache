@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/esp32/include/esp32/dport_access.h
+G:/esp-idf/components/esp32/include/esp32/dport_access.h
 stdint.h
 -
 sdkconfig.h
 -
 xtensa/xtruntime.h
-D:/esp/esp-idf/components/esp32/include/esp32/xtensa/xtruntime.h
+G:/esp-idf/components/esp32/include/esp32/xtensa/xtruntime.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_assert.h
+G:/esp-idf/components/esp_common/include/esp_assert.h
 assert.h
-D:/esp/esp-idf/components/esp_common/include/assert.h
+G:/esp-idf/components/esp_common/include/assert.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
+G:/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_compiler.h
+G:/esp-idf/components/esp_common/include/esp_compiler.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
@@ -30,47 +30,47 @@ stdbool.h
 stdlib.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/esp_rom/include/esp32/rom/sdkconfig.h
+G:/esp-idf/components/esp_rom/include/esp32/rom/sdkconfig.h
 soc/soc.h
-D:/esp/esp-idf/components/esp_rom/include/esp32/rom/soc/soc.h
+G:/esp-idf/components/esp_rom/include/esp32/rom/soc/soc.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 
-D:/esp/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 soc/soc.h
-D:/esp/esp-idf/components/esp_rom/include/esp32s2/rom/soc/soc.h
+G:/esp-idf/components/esp_rom/include/esp32s2/rom/soc/soc.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
+G:/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
 -
 soc/soc.h
-D:/esp/esp-idf/components/esp_rom/include/esp32s3/rom/soc/soc.h
+G:/esp-idf/components/esp_rom/include/esp32s3/rom/soc/soc.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
+G:/esp-idf/components/esp_rom/include/esp_rom_sys.h
 stdint.h
 -
 
-D:/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S
+G:/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S
 freertos/xtensa_rtos.h
-D:/esp/esp-idf/components/esp_system/port/arch/xtensa/freertos/xtensa_rtos.h
+G:/esp-idf/components/esp_system/port/arch/xtensa/freertos/xtensa_rtos.h
 esp_private/panic_reason.h
-D:/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_private/panic_reason.h
+G:/esp-idf/components/esp_system/port/arch/xtensa/esp_private/panic_reason.h
 soc/soc.h
-D:/esp/esp-idf/components/esp_system/port/arch/xtensa/soc/soc.h
+G:/esp-idf/components/esp_system/port/arch/xtensa/soc/soc.h
 sdkconfig.h
-D:/esp/esp-idf/components/esp_system/port/arch/xtensa/sdkconfig.h
+G:/esp-idf/components/esp_system/port/arch/xtensa/sdkconfig.h
 
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/dport_panic_highint_hdl.S
+G:/esp-idf/components/esp_system/port/soc/esp32/dport_panic_highint_hdl.S
 xtensa/coreasm.h
 -
 xtensa/corebits.h
@@ -78,41 +78,41 @@ xtensa/corebits.h
 xtensa/config/system.h
 -
 freertos/xtensa_context.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/freertos/xtensa_context.h
+G:/esp-idf/components/esp_system/port/soc/esp32/freertos/xtensa_context.h
 freertos/xtensa_rtos.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/freertos/xtensa_rtos.h
+G:/esp-idf/components/esp_system/port/soc/esp32/freertos/xtensa_rtos.h
 esp_private/panic_reason.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/esp_private/panic_reason.h
+G:/esp-idf/components/esp_system/port/soc/esp32/esp_private/panic_reason.h
 sdkconfig.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/sdkconfig.h
+G:/esp-idf/components/esp_system/port/soc/esp32/sdkconfig.h
 soc/soc.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/soc/soc.h
+G:/esp-idf/components/esp_system/port/soc/esp32/soc/soc.h
 soc/dport_reg.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/soc/dport_reg.h
+G:/esp-idf/components/esp_system/port/soc/esp32/soc/dport_reg.h
 soc/timer_group_reg.h
-D:/esp/esp-idf/components/esp_system/port/soc/esp32/soc/timer_group_reg.h
+G:/esp-idf/components/esp_system/port/soc/esp32/soc/timer_group_reg.h
 
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/FreeRTOSConfig.h
 sdkconfig.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/sdkconfig.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/sdkconfig.h
 freertos/xtensa_config.h
 -
 assert.h
 -
 esp_rom_sys.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/esp_rom_sys.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/esp_rom_sys.h
 esp32/rom/ets_sys.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/esp32/rom/ets_sys.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/esp32/rom/ets_sys.h
 esp32s2/rom/ets_sys.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/esp32s2/rom/ets_sys.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/esp32s2/rom/ets_sys.h
 esp32s3/rom/ets_sys.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/esp32s3/rom/ets_sys.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/esp32s3/rom/ets_sys.h
 esp32c3/rom/ets_sys.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/esp32c3/rom/ets_sys.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/esp32c3/rom/ets_sys.h
 SEGGER_SYSVIEW_FreeRTOS.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/SEGGER_SYSVIEW_FreeRTOS.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/SEGGER_SYSVIEW_FreeRTOS.h
 
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_config.h
 xtensa/hal.h
 -
 xtensa/config/core.h
@@ -120,13 +120,13 @@ xtensa/config/core.h
 xtensa/config/system.h
 -
 xtensa_context.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h
 
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h
 xtensa/xtensa_context.h
 -
 
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_rtos.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_rtos.h
 xtensa/coreasm.h
 -
 xtensa/config/core.h
@@ -136,13 +136,13 @@ xtensa/corebits.h
 xtensa/config/system.h
 -
 freertos/FreeRTOSConfig.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/freertos/FreeRTOSConfig.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/freertos/FreeRTOSConfig.h
 xtensa_context.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_context.h
 xtensa_timer.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_timer.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_timer.h
 
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_timer.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_timer.h
 xtensa/coreasm.h
 -
 xtensa/corebits.h
@@ -150,59 +150,59 @@ xtensa/corebits.h
 xtensa/config/system.h
 -
 xtensa_rtos.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_rtos.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/xtensa_rtos.h
 freertos/FreeRTOSConfig.h
-D:/esp/esp-idf/components/freertos/port/xtensa/include/freertos/freertos/FreeRTOSConfig.h
+G:/esp-idf/components/freertos/port/xtensa/include/freertos/freertos/FreeRTOSConfig.h
 
-D:/esp/esp-idf/components/newlib/platform_include/assert.h
+G:/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-D:/esp/esp-idf/components/newlib/platform_include/esp_compiler.h
+G:/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-D:/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
+G:/esp-idf/components/soc/esp32/include/soc/dport_access.h
 stdint.h
 -
 esp_attr.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/esp_attr.h
+G:/esp-idf/components/soc/esp32/include/soc/esp_attr.h
 esp32/dport_access.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/esp32/dport_access.h
+G:/esp-idf/components/soc/esp32/include/soc/esp32/dport_access.h
 sdkconfig.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/sdkconfig.h
+G:/esp-idf/components/soc/esp32/include/soc/sdkconfig.h
 
-D:/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h
+G:/esp-idf/components/soc/esp32/include/soc/dport_reg.h
 soc.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/soc.h
+G:/esp-idf/components/soc/esp32/include/soc/soc.h
 dport_access.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
+G:/esp-idf/components/soc/esp32/include/soc/dport_access.h
 
-D:/esp/esp-idf/components/soc/esp32/include/soc/soc.h
+G:/esp-idf/components/soc/esp32/include/soc/soc.h
 stdint.h
 -
 esp_assert.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/esp_assert.h
+G:/esp-idf/components/soc/esp32/include/soc/esp_assert.h
 esp_bit_defs.h
 -
 
-D:/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
+G:/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
 soc.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/soc.h
+G:/esp-idf/components/soc/esp32/include/soc/soc.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
 xtensa/hal.h
 -
 xtensa/xtensa-versions.h
 -
 xtensa/hal.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/hal.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/hal.h
 xtensa/xtensa-versions.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/xtensa-versions.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/xtensa-versions.h
 xtensa/config/core-isa.h
 -
 xtensa/config/core-matmap.h
@@ -210,35 +210,35 @@ xtensa/config/core-matmap.h
 xtensa/config/tie.h
 -
 core-isa.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
 core-matmap.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
 tie.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
 xtensa/config/tie-asm.h
 -
 tie-asm.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h
 xtensa/corebits.h
 -
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
 
-D:/esp/esp-idf/components/xtensa/include/esp_attr.h
+G:/esp-idf/components/xtensa/include/esp_attr.h
 stdint.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/xtensa/include/sdkconfig.h
+G:/esp-idf/components/xtensa/include/sdkconfig.h
 
-D:/esp/esp-idf/components/xtensa/include/esp_private/panic_reason.h
+G:/esp-idf/components/xtensa/include/esp_private/panic_reason.h
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h
+G:/esp-idf/components/xtensa/include/xtensa/coreasm.h
 xtensa/config/core.h
 -
 xtensa/config/specreg.h
@@ -246,17 +246,17 @@ xtensa/config/specreg.h
 xtensa/config/system.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
+G:/esp-idf/components/xtensa/include/xtensa/corebits.h
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/hal.h
+G:/esp-idf/components/xtensa/include/xtensa/hal.h
 stdint.h
 -
 stddef.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
+G:/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h
+G:/esp-idf/components/xtensa/include/xtensa/xtensa_context.h
 xtensa/coreasm.h
 -
 xtensa/config/tie.h
@@ -268,7 +268,7 @@ xtensa/config/system.h
 xtensa/xtruntime-frames.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h
+G:/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h
 xtensa/xtruntime-frames.h
 -
 xtensa/config/core.h
@@ -278,11 +278,11 @@ xtensa/config/tie.h
 xtensa/idma.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h
+G:/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h
 xtensa/config/core.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h
+G:/esp-idf/components/xtensa/include/xtensa/xtruntime.h
 xtensa/config/core.h
 -
 xtensa/config/specreg.h

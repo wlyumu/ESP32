@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\esp\esp-idf\components\bootloader\subproject
+CMAKE_SOURCE_DIR = G:\esp-idf\components\bootloader\subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -88,7 +88,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -98,14 +98,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\efuse\\CMakeFiles\progress.marks
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\efuse\\CMakeFiles\progress.marks
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/clean
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule
 
 # fast build rule for target.
 efuse_test_table/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_test_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_test_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
 .PHONY : efuse_test_table/fast
 
 # Convenience name for target.
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ __idf_efuse: esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
 
 # fast build rule for target.
 __idf_efuse/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build
 .PHONY : __idf_efuse/fast
 
 # Convenience name for target.
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ efuse_common_table: esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
 
 # fast build rule for target.
 efuse_common_table/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_common_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_common_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build
 .PHONY : efuse_common_table/fast
 
 # Convenience name for target.
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ efuse_custom_table: esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
 
 # fast build rule for target.
 efuse_custom_table/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_custom_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_custom_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build
 .PHONY : efuse_custom_table/fast
 
 # Convenience name for target.
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule
 
 # fast build rule for target.
 show_efuse_table/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\show_efuse_table.dir\build.make esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\show_efuse_table.dir\build.make esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
 .PHONY : show_efuse_table/fast
 
 esp32/esp_efuse_table.obj: esp32/esp_efuse_table.c.obj
@@ -209,7 +209,7 @@ esp32/esp_efuse_table.obj: esp32/esp_efuse_table.c.obj
 
 # target to build an object file
 esp32/esp_efuse_table.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
 .PHONY : esp32/esp_efuse_table.c.obj
 
 esp32/esp_efuse_table.i: esp32/esp_efuse_table.c.i
@@ -218,7 +218,7 @@ esp32/esp_efuse_table.i: esp32/esp_efuse_table.c.i
 
 # target to preprocess a source file
 esp32/esp_efuse_table.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.i
 .PHONY : esp32/esp_efuse_table.c.i
 
 esp32/esp_efuse_table.s: esp32/esp_efuse_table.c.s
@@ -227,7 +227,7 @@ esp32/esp_efuse_table.s: esp32/esp_efuse_table.c.s
 
 # target to generate assembly for a file
 esp32/esp_efuse_table.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.s
 .PHONY : esp32/esp_efuse_table.c.s
 
 src/esp32/esp_efuse_api.obj: src/esp32/esp_efuse_api.c.obj
@@ -236,7 +236,7 @@ src/esp32/esp_efuse_api.obj: src/esp32/esp_efuse_api.c.obj
 
 # target to build an object file
 src/esp32/esp_efuse_api.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_api.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_api.c.obj
 .PHONY : src/esp32/esp_efuse_api.c.obj
 
 src/esp32/esp_efuse_api.i: src/esp32/esp_efuse_api.c.i
@@ -245,7 +245,7 @@ src/esp32/esp_efuse_api.i: src/esp32/esp_efuse_api.c.i
 
 # target to preprocess a source file
 src/esp32/esp_efuse_api.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_api.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_api.c.i
 .PHONY : src/esp32/esp_efuse_api.c.i
 
 src/esp32/esp_efuse_api.s: src/esp32/esp_efuse_api.c.s
@@ -254,7 +254,7 @@ src/esp32/esp_efuse_api.s: src/esp32/esp_efuse_api.c.s
 
 # target to generate assembly for a file
 src/esp32/esp_efuse_api.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_api.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_api.c.s
 .PHONY : src/esp32/esp_efuse_api.c.s
 
 src/esp32/esp_efuse_fields.obj: src/esp32/esp_efuse_fields.c.obj
@@ -263,7 +263,7 @@ src/esp32/esp_efuse_fields.obj: src/esp32/esp_efuse_fields.c.obj
 
 # target to build an object file
 src/esp32/esp_efuse_fields.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_fields.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_fields.c.obj
 .PHONY : src/esp32/esp_efuse_fields.c.obj
 
 src/esp32/esp_efuse_fields.i: src/esp32/esp_efuse_fields.c.i
@@ -272,7 +272,7 @@ src/esp32/esp_efuse_fields.i: src/esp32/esp_efuse_fields.c.i
 
 # target to preprocess a source file
 src/esp32/esp_efuse_fields.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_fields.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_fields.c.i
 .PHONY : src/esp32/esp_efuse_fields.c.i
 
 src/esp32/esp_efuse_fields.s: src/esp32/esp_efuse_fields.c.s
@@ -281,7 +281,7 @@ src/esp32/esp_efuse_fields.s: src/esp32/esp_efuse_fields.c.s
 
 # target to generate assembly for a file
 src/esp32/esp_efuse_fields.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_fields.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_fields.c.s
 .PHONY : src/esp32/esp_efuse_fields.c.s
 
 src/esp32/esp_efuse_utility.obj: src/esp32/esp_efuse_utility.c.obj
@@ -290,7 +290,7 @@ src/esp32/esp_efuse_utility.obj: src/esp32/esp_efuse_utility.c.obj
 
 # target to build an object file
 src/esp32/esp_efuse_utility.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_utility.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_utility.c.obj
 .PHONY : src/esp32/esp_efuse_utility.c.obj
 
 src/esp32/esp_efuse_utility.i: src/esp32/esp_efuse_utility.c.i
@@ -299,7 +299,7 @@ src/esp32/esp_efuse_utility.i: src/esp32/esp_efuse_utility.c.i
 
 # target to preprocess a source file
 src/esp32/esp_efuse_utility.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_utility.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_utility.c.i
 .PHONY : src/esp32/esp_efuse_utility.c.i
 
 src/esp32/esp_efuse_utility.s: src/esp32/esp_efuse_utility.c.s
@@ -308,7 +308,7 @@ src/esp32/esp_efuse_utility.s: src/esp32/esp_efuse_utility.c.s
 
 # target to generate assembly for a file
 src/esp32/esp_efuse_utility.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_utility.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp32/esp_efuse_utility.c.s
 .PHONY : src/esp32/esp_efuse_utility.c.s
 
 src/esp_efuse_api.obj: src/esp_efuse_api.c.obj
@@ -317,7 +317,7 @@ src/esp_efuse_api.obj: src/esp_efuse_api.c.obj
 
 # target to build an object file
 src/esp_efuse_api.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
 .PHONY : src/esp_efuse_api.c.obj
 
 src/esp_efuse_api.i: src/esp_efuse_api.c.i
@@ -326,7 +326,7 @@ src/esp_efuse_api.i: src/esp_efuse_api.c.i
 
 # target to preprocess a source file
 src/esp_efuse_api.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.i
 .PHONY : src/esp_efuse_api.c.i
 
 src/esp_efuse_api.s: src/esp_efuse_api.c.s
@@ -335,7 +335,7 @@ src/esp_efuse_api.s: src/esp_efuse_api.c.s
 
 # target to generate assembly for a file
 src/esp_efuse_api.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.s
 .PHONY : src/esp_efuse_api.c.s
 
 src/esp_efuse_fields.obj: src/esp_efuse_fields.c.obj
@@ -344,7 +344,7 @@ src/esp_efuse_fields.obj: src/esp_efuse_fields.c.obj
 
 # target to build an object file
 src/esp_efuse_fields.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
 .PHONY : src/esp_efuse_fields.c.obj
 
 src/esp_efuse_fields.i: src/esp_efuse_fields.c.i
@@ -353,7 +353,7 @@ src/esp_efuse_fields.i: src/esp_efuse_fields.c.i
 
 # target to preprocess a source file
 src/esp_efuse_fields.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.i
 .PHONY : src/esp_efuse_fields.c.i
 
 src/esp_efuse_fields.s: src/esp_efuse_fields.c.s
@@ -362,7 +362,7 @@ src/esp_efuse_fields.s: src/esp_efuse_fields.c.s
 
 # target to generate assembly for a file
 src/esp_efuse_fields.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.s
 .PHONY : src/esp_efuse_fields.c.s
 
 src/esp_efuse_utility.obj: src/esp_efuse_utility.c.obj
@@ -371,7 +371,7 @@ src/esp_efuse_utility.obj: src/esp_efuse_utility.c.obj
 
 # target to build an object file
 src/esp_efuse_utility.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
 .PHONY : src/esp_efuse_utility.c.obj
 
 src/esp_efuse_utility.i: src/esp_efuse_utility.c.i
@@ -380,7 +380,7 @@ src/esp_efuse_utility.i: src/esp_efuse_utility.c.i
 
 # target to preprocess a source file
 src/esp_efuse_utility.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.i
 .PHONY : src/esp_efuse_utility.c.i
 
 src/esp_efuse_utility.s: src/esp_efuse_utility.c.s
@@ -389,7 +389,7 @@ src/esp_efuse_utility.s: src/esp_efuse_utility.c.s
 
 # target to generate assembly for a file
 src/esp_efuse_utility.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.s
 .PHONY : src/esp_efuse_utility.c.s
 
 # Help Target
@@ -437,6 +437,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

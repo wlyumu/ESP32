@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,31 +77,31 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -112,7 +112,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -133,25 +133,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\app_trace\\CMakeFiles\progress.marks
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\app_trace\\CMakeFiles\progress.marks
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/clean
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/preinstall
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
 .PHONY : esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ __idf_app_trace: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
 
 # fast build rule for target.
 __idf_app_trace/fast:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build
 .PHONY : __idf_app_trace/fast
 
 app_trace.obj: app_trace.c.obj
@@ -195,7 +195,7 @@ app_trace.obj: app_trace.c.obj
 
 # target to build an object file
 app_trace.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
 .PHONY : app_trace.c.obj
 
 app_trace.i: app_trace.c.i
@@ -204,7 +204,7 @@ app_trace.i: app_trace.c.i
 
 # target to preprocess a source file
 app_trace.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.i
 .PHONY : app_trace.c.i
 
 app_trace.s: app_trace.c.s
@@ -213,7 +213,7 @@ app_trace.s: app_trace.c.s
 
 # target to generate assembly for a file
 app_trace.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.s
 .PHONY : app_trace.c.s
 
 app_trace_util.obj: app_trace_util.c.obj
@@ -222,7 +222,7 @@ app_trace_util.obj: app_trace_util.c.obj
 
 # target to build an object file
 app_trace_util.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
 .PHONY : app_trace_util.c.obj
 
 app_trace_util.i: app_trace_util.c.i
@@ -231,7 +231,7 @@ app_trace_util.i: app_trace_util.c.i
 
 # target to preprocess a source file
 app_trace_util.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i
 .PHONY : app_trace_util.c.i
 
 app_trace_util.s: app_trace_util.c.s
@@ -240,7 +240,7 @@ app_trace_util.s: app_trace_util.c.s
 
 # target to generate assembly for a file
 app_trace_util.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s
 .PHONY : app_trace_util.c.s
 
 gcov/gcov_rtio.obj: gcov/gcov_rtio.c.obj
@@ -249,7 +249,7 @@ gcov/gcov_rtio.obj: gcov/gcov_rtio.c.obj
 
 # target to build an object file
 gcov/gcov_rtio.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.obj
 .PHONY : gcov/gcov_rtio.c.obj
 
 gcov/gcov_rtio.i: gcov/gcov_rtio.c.i
@@ -258,7 +258,7 @@ gcov/gcov_rtio.i: gcov/gcov_rtio.c.i
 
 # target to preprocess a source file
 gcov/gcov_rtio.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.i
 .PHONY : gcov/gcov_rtio.c.i
 
 gcov/gcov_rtio.s: gcov/gcov_rtio.c.s
@@ -267,7 +267,7 @@ gcov/gcov_rtio.s: gcov/gcov_rtio.c.s
 
 # target to generate assembly for a file
 gcov/gcov_rtio.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/gcov/gcov_rtio.c.s
 .PHONY : gcov/gcov_rtio.c.s
 
 host_file_io.obj: host_file_io.c.obj
@@ -276,7 +276,7 @@ host_file_io.obj: host_file_io.c.obj
 
 # target to build an object file
 host_file_io.c.obj:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
 .PHONY : host_file_io.c.obj
 
 host_file_io.i: host_file_io.c.i
@@ -285,7 +285,7 @@ host_file_io.i: host_file_io.c.i
 
 # target to preprocess a source file
 host_file_io.c.i:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.i
 .PHONY : host_file_io.c.i
 
 host_file_io.s: host_file_io.c.s
@@ -294,7 +294,7 @@ host_file_io.s: host_file_io.c.s
 
 # target to generate assembly for a file
 host_file_io.c.s:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.s
 .PHONY : host_file_io.c.s
 
 # Help Target
@@ -333,6 +333,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

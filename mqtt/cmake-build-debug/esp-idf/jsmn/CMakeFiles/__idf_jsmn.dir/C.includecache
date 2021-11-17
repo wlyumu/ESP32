@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/jsmn/include/jsmn.h
+G:/esp-idf/components/jsmn/include/jsmn.h
 stddef.h
 -
 
-D:/esp/esp-idf/components/jsmn/src/jsmn.c
+G:/esp-idf/components/jsmn/src/jsmn.c
 jsmn.h
-D:/esp/esp-idf/components/jsmn/src/jsmn.h
+G:/esp-idf/components/jsmn/src/jsmn.h
 

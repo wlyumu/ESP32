@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\esp\esp-idf\components\bootloader\subproject
+CMAKE_SOURCE_DIR = G:\esp-idf\components\bootloader\subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader
 
 # Utility rule file for _project_elf_src.
 
@@ -75,8 +75,8 @@ CMakeFiles/_project_elf_src: project_elf_src_esp32.c
 
 
 project_elf_src_esp32.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/project_elf_src_esp32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/project_elf_src_esp32.c
 
 _project_elf_src: CMakeFiles/_project_elf_src
 _project_elf_src: project_elf_src_esp32.c
@@ -94,6 +94,6 @@ CMakeFiles/_project_elf_src.dir/clean:
 .PHONY : CMakeFiles/_project_elf_src.dir/clean
 
 CMakeFiles/_project_elf_src.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\esp\esp-idf\components\bootloader\subproject D:\esp\esp-idf\components\bootloader\subproject E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles\_project_elf_src.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\esp-idf\components\bootloader\subproject G:\esp-idf\components\bootloader\subproject C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles\_project_elf_src.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_project_elf_src.dir/depend
 

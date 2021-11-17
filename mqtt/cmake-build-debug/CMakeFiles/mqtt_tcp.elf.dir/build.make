@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mqtt_tcp.elf.dir/depend.make
@@ -76,21 +76,21 @@ include CMakeFiles/mqtt_tcp.elf.dir/progress.make
 include CMakeFiles/mqtt_tcp.elf.dir/flags.make
 
 project_elf_src_esp32.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch E:/EPS32/esp32_test/mqtt/cmake-build-debug/project_elf_src_esp32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
+	"F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/project_elf_src_esp32.c
 
 CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/mqtt_tcp.elf.dir/flags.make
 CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.obj: project_elf_src_esp32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.obj"
-	D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mqtt_tcp.elf.dir\project_elf_src_esp32.c.obj -c E:\EPS32\esp32_test\mqtt\cmake-build-debug\project_elf_src_esp32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.obj"
+	G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mqtt_tcp.elf.dir\project_elf_src_esp32.c.obj -c C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\project_elf_src_esp32.c
 
 CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.i"
-	D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\EPS32\esp32_test\mqtt\cmake-build-debug\project_elf_src_esp32.c > CMakeFiles\mqtt_tcp.elf.dir\project_elf_src_esp32.c.i
+	G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\project_elf_src_esp32.c > CMakeFiles\mqtt_tcp.elf.dir\project_elf_src_esp32.c.i
 
 CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.s"
-	D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\EPS32\esp32_test\mqtt\cmake-build-debug\project_elf_src_esp32.c -o CMakeFiles\mqtt_tcp.elf.dir\project_elf_src_esp32.c.s
+	G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\project_elf_src_esp32.c -o CMakeFiles\mqtt_tcp.elf.dir\project_elf_src_esp32.c.s
 
 # Object files for target mqtt_tcp.elf
 mqtt_tcp_elf_OBJECTS = \
@@ -249,16 +249,16 @@ mqtt_tcp.elf: esp-idf/ulp/libulp.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libphy.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/librtc.a
 mqtt_tcp.elf: esp-idf/esp_pm/libesp_pm.a
 mqtt_tcp.elf: esp-idf/mbedtls/libmbedtls.a
 mqtt_tcp.elf: esp-idf/efuse/libefuse.a
@@ -308,16 +308,16 @@ mqtt_tcp.elf: esp-idf/ulp/libulp.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libphy.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/librtc.a
 mqtt_tcp.elf: esp-idf/esp_pm/libesp_pm.a
 mqtt_tcp.elf: esp-idf/mbedtls/libmbedtls.a
 mqtt_tcp.elf: esp-idf/efuse/libefuse.a
@@ -367,16 +367,16 @@ mqtt_tcp.elf: esp-idf/ulp/libulp.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libphy.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/librtc.a
 mqtt_tcp.elf: esp-idf/esp_pm/libesp_pm.a
 mqtt_tcp.elf: esp-idf/mbedtls/libmbedtls.a
 mqtt_tcp.elf: esp-idf/efuse/libefuse.a
@@ -426,32 +426,32 @@ mqtt_tcp.elf: esp-idf/ulp/libulp.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 mqtt_tcp.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libcore.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libpp.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/libphy.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_wifi/lib/esp32/librtc.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcoexist.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libcore.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libespnow.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libmesh.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libpp.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libsmartconfig.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libwapi.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/libphy.a
+mqtt_tcp.elf: G:/esp-idf/components/esp_wifi/lib/esp32/librtc.a
+mqtt_tcp.elf: G:/esp-idf/components/xtensa/esp32/libxt_hal.a
 mqtt_tcp.elf: esp-idf/newlib/libnewlib.a
 mqtt_tcp.elf: esp-idf/pthread/libpthread.a
 mqtt_tcp.elf: esp-idf/cxx/libcxx.a
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
 mqtt_tcp.elf: esp-idf/esp32/esp32_out.ld
 mqtt_tcp.elf: esp-idf/esp32/ld/esp32.project.ld
-mqtt_tcp.elf: D:/esp/esp-idf/components/esp32/ld/esp32.peripherals.ld
+mqtt_tcp.elf: G:/esp-idf/components/esp32/ld/esp32.peripherals.ld
 mqtt_tcp.elf: CMakeFiles/mqtt_tcp.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mqtt_tcp.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mqtt_tcp.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mqtt_tcp.elf.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -464,6 +464,6 @@ CMakeFiles/mqtt_tcp.elf.dir/clean:
 .PHONY : CMakeFiles/mqtt_tcp.elf.dir/clean
 
 CMakeFiles/mqtt_tcp.elf.dir/depend: project_elf_src_esp32.c
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt E:\EPS32\esp32_test\mqtt E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles\mqtt_tcp.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt C:\Users\wl\Desktop\esp32-demo\mqtt C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles\mqtt_tcp.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mqtt_tcp.elf.dir/depend
 

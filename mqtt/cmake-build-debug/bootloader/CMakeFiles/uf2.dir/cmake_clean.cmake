@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uf2"
   "bootloader.bin"
   "bootloader.map"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
   "project_elf_src_esp32.c"
+  "CMakeFiles/uf2"
 )
 
 # Per-language clean rules from dependency scanning.

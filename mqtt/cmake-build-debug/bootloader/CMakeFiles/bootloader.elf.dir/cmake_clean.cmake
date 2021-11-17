@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj"
   "bootloader.bin"
   "bootloader.map"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
   "project_elf_src_esp32.c"
+  "CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj"
   "bootloader.elf"
   "bootloader.elf.manifest"
   "bootloader.elf.pdb"

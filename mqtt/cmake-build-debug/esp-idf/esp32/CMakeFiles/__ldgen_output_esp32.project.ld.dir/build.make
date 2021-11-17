@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Utility rule file for __ldgen_output_esp32.project.ld.
 
@@ -74,30 +74,30 @@ include esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/progress.ma
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld: esp-idf/esp32/ld/esp32.project.ld
 
 
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp32/ld/esp32.project.ld.in
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_pm/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/spi_flash/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_gdbstub/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_system/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/hal/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_event/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_wifi/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/lwip/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/log/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/heap/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/soc/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_hw_support/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_ringbuf/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/driver/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/xtensa/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/espcoredump/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp32/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp32/ld/esp32_fragments.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/esp_common/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/freertos/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/newlib/newlib.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/app_trace/linker.lf
-esp-idf/esp32/ld/esp32.project.ld: D:/esp/esp-idf/components/bt/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp32/ld/esp32.project.ld.in
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_pm/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/spi_flash/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_gdbstub/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_system/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/hal/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_event/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_wifi/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/lwip/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/log/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/heap/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/soc/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_hw_support/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_ringbuf/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/driver/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/xtensa/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/espcoredump/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp32/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp32/ld/esp32_fragments.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/esp_common/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/freertos/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/newlib/newlib.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/app_trace/linker.lf
+esp-idf/esp32/ld/esp32.project.ld: G:/esp-idf/components/bt/linker.lf
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/esp_pm/libesp_pm.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/mbedtls/libmbedtls.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/efuse/libefuse.a
@@ -171,9 +171,9 @@ esp-idf/esp32/ld/esp32.project.ld: esp-idf/ulp/libulp.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/wifi_provisioning/libwifi_provisioning.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/protocol_examples_common/libprotocol_examples_common.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/main/libmain.a
-esp-idf/esp32/ld/esp32.project.ld: E:/EPS32/esp32_test/mqtt/sdkconfig
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/esp32.project.ld"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp32 && python D:/esp/esp-idf/tools/ldgen/ldgen.py --config E:/EPS32/esp32_test/mqtt/sdkconfig --fragments D:/esp/esp-idf/components/esp_pm/linker.lf	D:/esp/esp-idf/components/spi_flash/linker.lf	D:/esp/esp-idf/components/esp_gdbstub/linker.lf	D:/esp/esp-idf/components/esp_system/linker.lf	D:/esp/esp-idf/components/hal/linker.lf	D:/esp/esp-idf/components/esp_event/linker.lf	D:/esp/esp-idf/components/esp_wifi/linker.lf	D:/esp/esp-idf/components/lwip/linker.lf	D:/esp/esp-idf/components/log/linker.lf	D:/esp/esp-idf/components/heap/linker.lf	D:/esp/esp-idf/components/soc/linker.lf	D:/esp/esp-idf/components/esp_hw_support/linker.lf	D:/esp/esp-idf/components/esp_ringbuf/linker.lf	D:/esp/esp-idf/components/driver/linker.lf	D:/esp/esp-idf/components/xtensa/linker.lf	D:/esp/esp-idf/components/espcoredump/linker.lf	D:/esp/esp-idf/components/esp32/linker.lf	D:/esp/esp-idf/components/esp32/ld/esp32_fragments.lf	D:/esp/esp-idf/components/esp_common/linker.lf	D:/esp/esp-idf/components/freertos/linker.lf	D:/esp/esp-idf/components/newlib/newlib.lf	D:/esp/esp-idf/components/app_trace/linker.lf	D:/esp/esp-idf/components/bt/linker.lf --input D:/esp/esp-idf/components/esp32/ld/esp32.project.ld.in --output E:/EPS32/esp32_test/mqtt/cmake-build-debug/esp-idf/esp32/ld/esp32.project.ld --kconfig D:/esp/esp-idf/Kconfig --env-file E:/EPS32/esp32_test/mqtt/cmake-build-debug/config.env --libraries-file E:/EPS32/esp32_test/mqtt/cmake-build-debug/ldgen_libraries --objdump D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe
+esp-idf/esp32/ld/esp32.project.ld: C:/Users/wl/Desktop/esp32-demo/mqtt/sdkconfig
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/esp32.project.ld"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp32 && G:\espressif\python_env\idf4.3_py3.8_env\Scripts\python.exe G:/esp-idf/tools/ldgen/ldgen.py --config C:/Users/wl/Desktop/esp32-demo/mqtt/sdkconfig --fragments G:/esp-idf/components/esp_pm/linker.lf	G:/esp-idf/components/spi_flash/linker.lf	G:/esp-idf/components/esp_gdbstub/linker.lf	G:/esp-idf/components/esp_system/linker.lf	G:/esp-idf/components/hal/linker.lf	G:/esp-idf/components/esp_event/linker.lf	G:/esp-idf/components/esp_wifi/linker.lf	G:/esp-idf/components/lwip/linker.lf	G:/esp-idf/components/log/linker.lf	G:/esp-idf/components/heap/linker.lf	G:/esp-idf/components/soc/linker.lf	G:/esp-idf/components/esp_hw_support/linker.lf	G:/esp-idf/components/esp_ringbuf/linker.lf	G:/esp-idf/components/driver/linker.lf	G:/esp-idf/components/xtensa/linker.lf	G:/esp-idf/components/espcoredump/linker.lf	G:/esp-idf/components/esp32/linker.lf	G:/esp-idf/components/esp32/ld/esp32_fragments.lf	G:/esp-idf/components/esp_common/linker.lf	G:/esp-idf/components/freertos/linker.lf	G:/esp-idf/components/newlib/newlib.lf	G:/esp-idf/components/app_trace/linker.lf	G:/esp-idf/components/bt/linker.lf --input G:/esp-idf/components/esp32/ld/esp32.project.ld.in --output C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/esp-idf/esp32/ld/esp32.project.ld --kconfig G:/esp-idf/Kconfig --env-file C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/config.env --libraries-file C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/ldgen_libraries --objdump G:/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe
 
 __ldgen_output_esp32.project.ld: esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld
 __ldgen_output_esp32.project.ld: esp-idf/esp32/ld/esp32.project.ld
@@ -187,10 +187,10 @@ esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build: __ldgen_outp
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build
 
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp32 && $(CMAKE_COMMAND) -P CMakeFiles\__ldgen_output_esp32.project.ld.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp32 && $(CMAKE_COMMAND) -P CMakeFiles\__ldgen_output_esp32.project.ld.dir\cmake_clean.cmake
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean
 
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\components\esp32 E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp32 E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\components\esp32 C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp32 C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend
 

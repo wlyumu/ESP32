@@ -50,7 +50,7 @@ esp_err_t NVS_Kv_Delete(const char *key)
 
     memcpy(key_name, key, sizeof(key_name));
 
-    err = nvs_erase_key(nvs_handle, key);
+    err = nvs_erase_key(nvs_handle, key_name);
     if (err != ESP_OK) {
         ESP_LOGE(TAG, "nvs erase key %s failed with %x", key_name, err);
     } else {
@@ -98,6 +98,7 @@ esp_err_t NVS_Kv_Set(const char *key, const void *value, size_t length)
         ESP_LOGW(TAG, "Error (%s) opening NVS handle!", esp_err_to_name(err));
     }
 
+    err = nvs_commit(nvs_handle);
     nvs_close(nvs_handle);
 
     return err;

@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\esp\esp-idf\components\bootloader\subproject
+CMAKE_SOURCE_DIR = G:\esp-idf\components\bootloader\subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader
 
 # Utility rule file for show_efuse_table.
 
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
 include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show_efuse_table:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\efuse && python D:/esp/esp-idf/components/efuse/efuse_table_gen.py D:/esp/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\efuse && G:\espressif\python_env\idf4.3_py3.8_env\Scripts\python.exe G:/esp-idf/components/efuse/efuse_table_gen.py G:/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
 
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build.make
@@ -85,10 +85,10 @@ esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build: show_efuse_table
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\efuse && $(CMAKE_COMMAND) -P CMakeFiles\show_efuse_table.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\efuse && $(CMAKE_COMMAND) -P CMakeFiles\show_efuse_table.dir\cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\esp\esp-idf\components\bootloader\subproject D:\esp\esp-idf\components\efuse E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\efuse E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\efuse\CMakeFiles\show_efuse_table.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\esp-idf\components\bootloader\subproject G:\esp-idf\components\efuse C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\efuse C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\efuse\CMakeFiles\show_efuse_table.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend
 

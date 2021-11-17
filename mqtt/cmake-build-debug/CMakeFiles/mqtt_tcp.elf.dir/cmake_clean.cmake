@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.obj"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.elf"
   "bootloader/bootloader.map"
@@ -9,6 +8,7 @@ file(REMOVE_RECURSE
   "mqtt_tcp.bin"
   "mqtt_tcp.map"
   "project_elf_src_esp32.c"
+  "CMakeFiles/mqtt_tcp.elf.dir/project_elf_src_esp32.c.obj"
   "mqtt_tcp.elf"
   "mqtt_tcp.elf.manifest"
   "mqtt_tcp.elf.pdb"

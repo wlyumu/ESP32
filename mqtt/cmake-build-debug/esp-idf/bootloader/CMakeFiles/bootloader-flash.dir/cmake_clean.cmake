@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bootloader-flash"
   "../../flash_bootloader_args"
+  "CMakeFiles/bootloader-flash"
 )
 
 # Per-language clean rules from dependency scanning.

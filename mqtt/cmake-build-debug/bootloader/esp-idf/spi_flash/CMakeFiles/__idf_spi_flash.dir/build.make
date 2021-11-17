@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\esp\esp-idf\components\bootloader\subproject
+CMAKE_SOURCE_DIR = G:\esp-idf\components\bootloader\subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend.make
@@ -76,17 +76,17 @@ include esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/progress.make
 include esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flags.make
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flags.make
-esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj: D:/esp/esp-idf/components/spi_flash/esp32/spi_flash_rom_patch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_spi_flash.dir\esp32\spi_flash_rom_patch.c.obj -c D:\esp\esp-idf\components\spi_flash\esp32\spi_flash_rom_patch.c
+esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj: G:/esp-idf/components/spi_flash/esp32/spi_flash_rom_patch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_spi_flash.dir\esp32\spi_flash_rom_patch.c.obj -c G:\esp-idf\components\spi_flash\esp32\spi_flash_rom_patch.c
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\spi_flash\esp32\spi_flash_rom_patch.c > CMakeFiles\__idf_spi_flash.dir\esp32\spi_flash_rom_patch.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\spi_flash\esp32\spi_flash_rom_patch.c > CMakeFiles\__idf_spi_flash.dir\esp32\spi_flash_rom_patch.c.i
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\spi_flash\esp32\spi_flash_rom_patch.c -o CMakeFiles\__idf_spi_flash.dir\esp32\spi_flash_rom_patch.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\spi_flash\esp32\spi_flash_rom_patch.c -o CMakeFiles\__idf_spi_flash.dir\esp32\spi_flash_rom_patch.c.s
 
 # Object files for target __idf_spi_flash
 __idf_spi_flash_OBJECTS = \
@@ -98,9 +98,9 @@ __idf_spi_flash_EXTERNAL_OBJECTS =
 esp-idf/spi_flash/libspi_flash.a: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj
 esp-idf/spi_flash/libspi_flash.a: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make
 esp-idf/spi_flash/libspi_flash.a: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libspi_flash.a"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && $(CMAKE_COMMAND) -P CMakeFiles\__idf_spi_flash.dir\cmake_clean_target.cmake
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_spi_flash.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libspi_flash.a"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && $(CMAKE_COMMAND) -P CMakeFiles\__idf_spi_flash.dir\cmake_clean_target.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_spi_flash.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build: esp-idf/spi_flash/libspi_flash.a
@@ -108,10 +108,10 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build: esp-idf/spi_flash/libspi
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && $(CMAKE_COMMAND) -P CMakeFiles\__idf_spi_flash.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash && $(CMAKE_COMMAND) -P CMakeFiles\__idf_spi_flash.dir\cmake_clean.cmake
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean
 
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\esp\esp-idf\components\bootloader\subproject D:\esp\esp-idf\components\spi_flash E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash E:\EPS32\esp32_test\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash\CMakeFiles\__idf_spi_flash.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\esp-idf\components\bootloader\subproject G:\esp-idf\components\spi_flash C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\bootloader\esp-idf\spi_flash\CMakeFiles\__idf_spi_flash.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend
 

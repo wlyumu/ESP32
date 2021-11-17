@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/esp_common/include/esp_compiler.h
+G:/esp-idf/components/esp_common/include/esp_compiler.h
 
-D:/esp/esp-idf/components/newlib/platform_include/assert.h
+G:/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-D:/esp/esp-idf/components/newlib/platform_include/esp_compiler.h
+G:/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-D:/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c
+G:/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c
 stdlib.h
 -
 string.h
 -
 protobuf-c.h
-D:/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
+G:/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
 
-D:/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
+G:/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
 assert.h
 -
 limits.h

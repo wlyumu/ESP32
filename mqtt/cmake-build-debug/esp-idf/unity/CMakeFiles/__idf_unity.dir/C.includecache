@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/esp/esp-idf/components/esp32/include/esp32/clk.h
+G:/esp-idf/components/esp32/include/esp32/clk.h
 stdint.h
 -
 
-D:/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
+G:/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_compiler.h
+G:/esp-idf/components/esp_common/include/esp_compiler.h
 
-D:/esp/esp-idf/components/esp_common/include/esp_err.h
+G:/esp-idf/components/esp_common/include/esp_err.h
 stdint.h
 -
 stdio.h
@@ -22,9 +22,9 @@ stdio.h
 assert.h
 -
 
-D:/esp/esp-idf/components/esp_common/include/esp_idf_version.h
+G:/esp-idf/components/esp_common/include/esp_idf_version.h
 
-D:/esp/esp-idf/components/esp_hw_support/include/soc/cpu.h
+G:/esp-idf/components/esp_hw_support/include/soc/cpu.h
 stdint.h
 -
 stdbool.h
@@ -32,119 +32,119 @@ stdbool.h
 stddef.h
 -
 xt_instr_macros.h
-D:/esp/esp-idf/components/esp_hw_support/include/soc/xt_instr_macros.h
+G:/esp-idf/components/esp_hw_support/include/soc/xt_instr_macros.h
 xtensa/corebits.h
-D:/esp/esp-idf/components/esp_hw_support/include/soc/xtensa/corebits.h
+G:/esp-idf/components/esp_hw_support/include/soc/xtensa/corebits.h
 xtensa/config/core.h
-D:/esp/esp-idf/components/esp_hw_support/include/soc/xtensa/config/core.h
+G:/esp-idf/components/esp_hw_support/include/soc/xtensa/config/core.h
 xtensa/config/specreg.h
-D:/esp/esp-idf/components/esp_hw_support/include/soc/xtensa/config/specreg.h
+G:/esp-idf/components/esp_hw_support/include/soc/xtensa/config/specreg.h
 hal/cpu_hal.h
-D:/esp/esp-idf/components/esp_hw_support/include/soc/hal/cpu_hal.h
+G:/esp-idf/components/esp_hw_support/include/soc/hal/cpu_hal.h
 
-D:/esp/esp-idf/components/esp_rom/include/esp_rom_uart.h
+G:/esp-idf/components/esp_rom/include/esp_rom_uart.h
 stdint.h
 -
 
-D:/esp/esp-idf/components/esp_system/include/esp_system.h
+G:/esp-idf/components/esp_system/include/esp_system.h
 stdint.h
 -
 stdbool.h
 -
 esp_err.h
-D:/esp/esp-idf/components/esp_system/include/esp_err.h
+G:/esp-idf/components/esp_system/include/esp_err.h
 esp_attr.h
-D:/esp/esp-idf/components/esp_system/include/esp_attr.h
+G:/esp-idf/components/esp_system/include/esp_attr.h
 esp_bit_defs.h
-D:/esp/esp-idf/components/esp_system/include/esp_bit_defs.h
+G:/esp-idf/components/esp_system/include/esp_bit_defs.h
 esp_idf_version.h
-D:/esp/esp-idf/components/esp_system/include/esp_idf_version.h
+G:/esp-idf/components/esp_system/include/esp_idf_version.h
 sdkconfig.h
-D:/esp/esp-idf/components/esp_system/include/sdkconfig.h
+G:/esp-idf/components/esp_system/include/sdkconfig.h
 
-D:/esp/esp-idf/components/hal/esp32/include/hal/cpu_ll.h
+G:/esp-idf/components/hal/esp32/include/hal/cpu_ll.h
 stdint.h
 -
 esp_attr.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/esp_attr.h
+G:/esp-idf/components/hal/esp32/include/hal/esp_attr.h
 soc/soc_caps.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/soc/soc_caps.h
+G:/esp-idf/components/hal/esp32/include/hal/soc/soc_caps.h
 xt_instr_macros.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/xt_instr_macros.h
+G:/esp-idf/components/hal/esp32/include/hal/xt_instr_macros.h
 xtensa/config/specreg.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/xtensa/config/specreg.h
+G:/esp-idf/components/hal/esp32/include/hal/xtensa/config/specreg.h
 xtensa/config/extreg.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/xtensa/config/extreg.h
+G:/esp-idf/components/hal/esp32/include/hal/xtensa/config/extreg.h
 esp_bit_defs.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/esp_bit_defs.h
+G:/esp-idf/components/hal/esp32/include/hal/esp_bit_defs.h
 xtensa/config/core.h
-D:/esp/esp-idf/components/hal/esp32/include/hal/xtensa/config/core.h
+G:/esp-idf/components/hal/esp32/include/hal/xtensa/config/core.h
 
-D:/esp/esp-idf/components/hal/include/hal/cpu_hal.h
+G:/esp-idf/components/hal/include/hal/cpu_hal.h
 stdint.h
 -
 stdbool.h
 -
 esp_err.h
-D:/esp/esp-idf/components/hal/include/hal/esp_err.h
+G:/esp-idf/components/hal/include/hal/esp_err.h
 soc/soc_caps.h
-D:/esp/esp-idf/components/hal/include/hal/soc/soc_caps.h
+G:/esp-idf/components/hal/include/hal/soc/soc_caps.h
 hal/cpu_types.h
-D:/esp/esp-idf/components/hal/include/hal/hal/cpu_types.h
+G:/esp-idf/components/hal/include/hal/hal/cpu_types.h
 hal/cpu_ll.h
-D:/esp/esp-idf/components/hal/include/hal/hal/cpu_ll.h
+G:/esp-idf/components/hal/include/hal/hal/cpu_ll.h
 
-D:/esp/esp-idf/components/hal/include/hal/cpu_types.h
+G:/esp-idf/components/hal/include/hal/cpu_types.h
 
-D:/esp/esp-idf/components/newlib/platform_include/assert.h
+G:/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
 -
 esp_compiler.h
-D:/esp/esp-idf/components/newlib/platform_include/esp_compiler.h
+G:/esp-idf/components/newlib/platform_include/esp_compiler.h
 
-D:/esp/esp-idf/components/newlib/platform_include/time.h
+G:/esp-idf/components/newlib/platform_include/time.h
 
-D:/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+G:/esp-idf/components/soc/esp32/include/soc/soc_caps.h
 sdkconfig.h
-D:/esp/esp-idf/components/soc/esp32/include/soc/sdkconfig.h
+G:/esp-idf/components/soc/esp32/include/soc/sdkconfig.h
 
-D:/esp/esp-idf/components/unity/include/unity_config.h
+G:/esp-idf/components/unity/include/unity_config.h
 esp_err.h
 -
 stddef.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/unity/include/sdkconfig.h
+G:/esp-idf/components/unity/include/sdkconfig.h
 unity_test_runner.h
-D:/esp/esp-idf/components/unity/include/unity_test_runner.h
+G:/esp-idf/components/unity/include/unity_test_runner.h
 unity_fixture_extras.h
-D:/esp/esp-idf/components/unity/include/unity_fixture_extras.h
+G:/esp-idf/components/unity/include/unity_fixture_extras.h
 
-D:/esp/esp-idf/components/unity/include/unity_fixture_extras.h
+G:/esp-idf/components/unity/include/unity_fixture_extras.h
 
-D:/esp/esp-idf/components/unity/include/unity_test_runner.h
+G:/esp-idf/components/unity/include/unity_test_runner.h
 stdint.h
 -
 stdbool.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/unity/include/sdkconfig.h
+G:/esp-idf/components/unity/include/sdkconfig.h
 
-D:/esp/esp-idf/components/unity/unity/src/unity.c
+G:/esp-idf/components/unity/unity/src/unity.c
 unity.h
-D:/esp/esp-idf/components/unity/unity/src/unity.h
+G:/esp-idf/components/unity/unity/src/unity.h
 stddef.h
 -
 
-D:/esp/esp-idf/components/unity/unity/src/unity.h
+G:/esp-idf/components/unity/unity/src/unity.h
 unity_internals.h
-D:/esp/esp-idf/components/unity/unity/src/unity_internals.h
+G:/esp-idf/components/unity/unity/src/unity_internals.h
 
-D:/esp/esp-idf/components/unity/unity/src/unity_internals.h
+G:/esp-idf/components/unity/unity/src/unity_internals.h
 unity_config.h
-D:/esp/esp-idf/components/unity/unity/src/unity_config.h
+G:/esp-idf/components/unity/unity/src/unity_config.h
 setjmp.h
 -
 math.h
@@ -162,29 +162,29 @@ stdio.h
 stdio.h
 -
 
-D:/esp/esp-idf/components/unity/unity_port_esp32.c
+G:/esp-idf/components/unity/unity_port_esp32.c
 string.h
 -
 unity.h
-D:/esp/esp-idf/components/unity/unity.h
+G:/esp-idf/components/unity/unity.h
 sdkconfig.h
-D:/esp/esp-idf/components/unity/sdkconfig.h
+G:/esp-idf/components/unity/sdkconfig.h
 soc/cpu.h
-D:/esp/esp-idf/components/unity/soc/cpu.h
+G:/esp-idf/components/unity/soc/cpu.h
 hal/cpu_hal.h
-D:/esp/esp-idf/components/unity/hal/cpu_hal.h
+G:/esp-idf/components/unity/hal/cpu_hal.h
 esp_rom_uart.h
-D:/esp/esp-idf/components/unity/esp_rom_uart.h
+G:/esp-idf/components/unity/esp_rom_uart.h
 esp32/clk.h
-D:/esp/esp-idf/components/unity/esp32/clk.h
+G:/esp-idf/components/unity/esp32/clk.h
 esp32s2/clk.h
-D:/esp/esp-idf/components/unity/esp32s2/clk.h
+G:/esp-idf/components/unity/esp32s2/clk.h
 esp32s3/clk.h
-D:/esp/esp-idf/components/unity/esp32s3/clk.h
+G:/esp-idf/components/unity/esp32s3/clk.h
 esp32c3/clk.h
-D:/esp/esp-idf/components/unity/esp32c3/clk.h
+G:/esp-idf/components/unity/esp32c3/clk.h
 
-D:/esp/esp-idf/components/unity/unity_runner.c
+G:/esp-idf/components/unity/unity_runner.c
 stdlib.h
 -
 string.h
@@ -196,23 +196,23 @@ ctype.h
 stdio.h
 -
 unity.h
-D:/esp/esp-idf/components/unity/unity.h
+G:/esp-idf/components/unity/unity.h
 esp_system.h
-D:/esp/esp-idf/components/unity/esp_system.h
+G:/esp-idf/components/unity/esp_system.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h
 xtensa/hal.h
 -
 xtensa/xtensa-versions.h
 -
 xtensa/hal.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/hal.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/hal.h
 xtensa/xtensa-versions.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/xtensa-versions.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/xtensa/xtensa-versions.h
 xtensa/config/core-isa.h
 -
 xtensa/config/core-matmap.h
@@ -220,43 +220,43 @@ xtensa/config/core-matmap.h
 xtensa/config/tie.h
 -
 core-isa.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
 core-matmap.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h
 tie.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
 xtensa/config/tie-asm.h
 -
 tie-asm.h
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h
 xtensa/corebits.h
 -
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h
 
-D:/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
+G:/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h
 
-D:/esp/esp-idf/components/xtensa/include/esp_attr.h
+G:/esp-idf/components/xtensa/include/esp_attr.h
 stdint.h
 -
 sdkconfig.h
-D:/esp/esp-idf/components/xtensa/include/sdkconfig.h
+G:/esp-idf/components/xtensa/include/sdkconfig.h
 
-D:/esp/esp-idf/components/xtensa/include/xt_instr_macros.h
+G:/esp-idf/components/xtensa/include/xt_instr_macros.h
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
+G:/esp-idf/components/xtensa/include/xtensa/corebits.h
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/hal.h
+G:/esp-idf/components/xtensa/include/xtensa/hal.h
 stdint.h
 -
 stddef.h
 -
 
-D:/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
+G:/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
 
 config/sdkconfig.h
 

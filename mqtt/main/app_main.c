@@ -32,6 +32,7 @@
 #include "time_update.h"
 
 #include "esp_spiffs.h"
+#include "nvs_kv.h"
 
 static const char *TAG = "MQTT_EXAMPLE";
 
@@ -91,30 +92,40 @@ void app_main(void)
     esp_log_level_set("TRANSPORT", ESP_LOG_VERBOSE);
     esp_log_level_set("OUTBOX", ESP_LOG_VERBOSE);
 
-    ESP_ERROR_CHECK(nvs_flash_init());
     ESP_ERROR_CHECK(esp_netif_init());
-
     ESP_ERROR_CHECK(esp_event_loop_create_default());
 
-   
+    ESP_ERROR_CHECK(NVS_Kv_Init());
 
-    /* This helper function configures Wi-Fi or Ethernet, as selected in menuconfig.
-     * Read "Establishing Wi-Fi or Ethernet Connection" section in
-     * examples/protocols/README.md for more information about this function.
-     */
-    
-    extern void esp_timerInit(void);
-   // ESP_ERROR_CHECK(example_connect());
 
-   ESP_LOGD(TAG,"my write APP");
-   //uart_create_thread();
-   //nvs_write_read();
-  // esp_timerInit();
-   gpio_reset_pin(2);
-   gpio_set_direction(2, GPIO_MODE_OUTPUT);
-   init_spiffs();
+    ESP_LOGD(TAG,"my write APP");
+    //uart_create_thread();
+    //nvs_write_read();
+    // esp_timerInit();
+    gpio_reset_pin(2);
+    gpio_set_direction(2, GPIO_MODE_OUTPUT);
+    init_spiffs();
 
-   uart_thread_create();
+    extern esp_err_t  connect_mgr_init(void);
+    extern esp_err_t  connect_mgr_start(void);
+    connect_mgr_init();
+    connect_mgr_start();
+//    char wifi_ssid[33] = "MEIZU 18";
+//    char wifi_ssid1[33] = {0};
+//    size_t len = strlen(wifi_ssid);
+
+//    char wifi_passwd[33] = "12345678";
+//    char wifi_passwd1[33] = {0};
+//    size_t len1 = strlen(wifi_passwd);
+//    NVS_Kv_Set("wifi_ssid", wifi_ssid, len);
+//    NVS_Kv_Get("wifi_ssid", wifi_ssid1, &len);
+//
+//    NVS_Kv_Set("wifi_passwd", wifi_passwd, len1);
+//    NVS_Kv_Get("wifi_passwd", wifi_passwd1, &len1);
+//   // NVS_Kv_Delete("wifi_ssid");
+//    ESP_LOGI(TAG, "wifi_ssid:%s", wifi_ssid1);
+//    ESP_LOGI(TAG, "wifi_passwd:%s", wifi_passwd1);
+//   uart_thread_create();
 //    wifi_init_sta();
   
 //    system_time_update();

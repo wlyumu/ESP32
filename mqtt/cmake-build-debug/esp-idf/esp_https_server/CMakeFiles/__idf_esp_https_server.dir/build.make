@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/depend.make
@@ -76,17 +76,17 @@ include esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/progress.
 include esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/flags.make
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/flags.make
-esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj: D:/esp/esp-idf/components/esp_https_server/src/https_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_https_server.dir\src\https_server.c.obj -c D:\esp\esp-idf\components\esp_https_server\src\https_server.c
+esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj: G:/esp-idf/components/esp_https_server/src/https_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_esp_https_server.dir\src\https_server.c.obj -c G:\esp-idf\components\esp_https_server\src\https_server.c
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\components\esp_https_server\src\https_server.c > CMakeFiles\__idf_esp_https_server.dir\src\https_server.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\components\esp_https_server\src\https_server.c > CMakeFiles\__idf_esp_https_server.dir\src\https_server.c.i
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\components\esp_https_server\src\https_server.c -o CMakeFiles\__idf_esp_https_server.dir\src\https_server.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\components\esp_https_server\src\https_server.c -o CMakeFiles\__idf_esp_https_server.dir\src\https_server.c.s
 
 # Object files for target __idf_esp_https_server
 __idf_esp_https_server_OBJECTS = \
@@ -98,9 +98,9 @@ __idf_esp_https_server_EXTERNAL_OBJECTS =
 esp-idf/esp_https_server/libesp_https_server.a: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj
 esp-idf/esp_https_server/libesp_https_server.a: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build.make
 esp-idf/esp_https_server/libesp_https_server.a: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_https_server.a"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_https_server.dir\cmake_clean_target.cmake
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_esp_https_server.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_https_server.a"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_https_server.dir\cmake_clean_target.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_esp_https_server.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build: esp-idf/esp_https_server/libesp_https_server.a
@@ -108,10 +108,10 @@ esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build: esp-idf/es
 .PHONY : esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_https_server.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server && $(CMAKE_COMMAND) -P CMakeFiles\__idf_esp_https_server.dir\cmake_clean.cmake
 .PHONY : esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/clean
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\components\esp_https_server E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\esp_https_server\CMakeFiles\__idf_esp_https_server.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\components\esp_https_server C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\esp_https_server\CMakeFiles\__idf_esp_https_server.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/depend
 

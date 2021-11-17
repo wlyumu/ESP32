@@ -6,3 +6,9 @@
 
 #IncludeRegexTransform: 
 
+G:/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S
+xtensa/corebits.h
+-
+
+G:/esp-idf/components/xtensa/include/xtensa/corebits.h
+

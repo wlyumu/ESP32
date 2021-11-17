@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\EPS32\esp32_test\mqtt
+CMAKE_SOURCE_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\EPS32\esp32_test\mqtt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/depend.make
@@ -76,43 +76,43 @@ include esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_comm
 include esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/flags.make
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj: esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/flags.make
-esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj: D:/esp/esp-idf/examples/common_components/protocol_examples_common/connect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_protocol_examples_common.dir\connect.c.obj -c D:\esp\esp-idf\examples\common_components\protocol_examples_common\connect.c
+esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj: G:/esp-idf/examples/common_components/protocol_examples_common/connect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_protocol_examples_common.dir\connect.c.obj -c G:\esp-idf\examples\common_components\protocol_examples_common\connect.c
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_protocol_examples_common.dir/connect.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\examples\common_components\protocol_examples_common\connect.c > CMakeFiles\__idf_protocol_examples_common.dir\connect.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\examples\common_components\protocol_examples_common\connect.c > CMakeFiles\__idf_protocol_examples_common.dir\connect.c.i
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/connect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_protocol_examples_common.dir/connect.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\examples\common_components\protocol_examples_common\connect.c -o CMakeFiles\__idf_protocol_examples_common.dir\connect.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\examples\common_components\protocol_examples_common\connect.c -o CMakeFiles\__idf_protocol_examples_common.dir\connect.c.s
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.obj: esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/flags.make
-esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.obj: D:/esp/esp-idf/examples/common_components/protocol_examples_common/stdin_out.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_protocol_examples_common.dir\stdin_out.c.obj -c D:\esp\esp-idf\examples\common_components\protocol_examples_common\stdin_out.c
+esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.obj: G:/esp-idf/examples/common_components/protocol_examples_common/stdin_out.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_protocol_examples_common.dir\stdin_out.c.obj -c G:\esp-idf\examples\common_components\protocol_examples_common\stdin_out.c
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\examples\common_components\protocol_examples_common\stdin_out.c > CMakeFiles\__idf_protocol_examples_common.dir\stdin_out.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\examples\common_components\protocol_examples_common\stdin_out.c > CMakeFiles\__idf_protocol_examples_common.dir\stdin_out.c.i
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\examples\common_components\protocol_examples_common\stdin_out.c -o CMakeFiles\__idf_protocol_examples_common.dir\stdin_out.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\examples\common_components\protocol_examples_common\stdin_out.c -o CMakeFiles\__idf_protocol_examples_common.dir\stdin_out.c.s
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.obj: esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/flags.make
-esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.obj: D:/esp/esp-idf/examples/common_components/protocol_examples_common/addr_from_stdin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.obj"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_protocol_examples_common.dir\addr_from_stdin.c.obj -c D:\esp\esp-idf\examples\common_components\protocol_examples_common\addr_from_stdin.c
+esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.obj: G:/esp-idf/examples/common_components/protocol_examples_common/addr_from_stdin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.obj"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_protocol_examples_common.dir\addr_from_stdin.c.obj -c G:\esp-idf\examples\common_components\protocol_examples_common\addr_from_stdin.c
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.i"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\esp\esp-idf\examples\common_components\protocol_examples_common\addr_from_stdin.c > CMakeFiles\__idf_protocol_examples_common.dir\addr_from_stdin.c.i
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\esp-idf\examples\common_components\protocol_examples_common\addr_from_stdin.c > CMakeFiles\__idf_protocol_examples_common.dir\addr_from_stdin.c.i
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.s"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\esp\esp-idf\examples\common_components\protocol_examples_common\addr_from_stdin.c -o CMakeFiles\__idf_protocol_examples_common.dir\addr_from_stdin.c.s
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && G:\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\esp-idf\examples\common_components\protocol_examples_common\addr_from_stdin.c -o CMakeFiles\__idf_protocol_examples_common.dir\addr_from_stdin.c.s
 
 # Object files for target __idf_protocol_examples_common
 __idf_protocol_examples_common_OBJECTS = \
@@ -128,9 +128,9 @@ esp-idf/protocol_examples_common/libprotocol_examples_common.a: esp-idf/protocol
 esp-idf/protocol_examples_common/libprotocol_examples_common.a: esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/addr_from_stdin.c.obj
 esp-idf/protocol_examples_common/libprotocol_examples_common.a: esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/build.make
 esp-idf/protocol_examples_common/libprotocol_examples_common.a: esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\EPS32\esp32_test\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libprotocol_examples_common.a"
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && $(CMAKE_COMMAND) -P CMakeFiles\__idf_protocol_examples_common.dir\cmake_clean_target.cmake
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_protocol_examples_common.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libprotocol_examples_common.a"
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && $(CMAKE_COMMAND) -P CMakeFiles\__idf_protocol_examples_common.dir\cmake_clean_target.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_protocol_examples_common.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/build: esp-idf/protocol_examples_common/libprotocol_examples_common.a
@@ -138,10 +138,10 @@ esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/b
 .PHONY : esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/build
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/clean:
-	cd /d E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && $(CMAKE_COMMAND) -P CMakeFiles\__idf_protocol_examples_common.dir\cmake_clean.cmake
+	cd /d C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common && $(CMAKE_COMMAND) -P CMakeFiles\__idf_protocol_examples_common.dir\cmake_clean.cmake
 .PHONY : esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/clean
 
 esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\EPS32\esp32_test\mqtt D:\esp\esp-idf\examples\common_components\protocol_examples_common E:\EPS32\esp32_test\mqtt\cmake-build-debug E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common E:\EPS32\esp32_test\mqtt\cmake-build-debug\esp-idf\protocol_examples_common\CMakeFiles\__idf_protocol_examples_common.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wl\Desktop\esp32-demo\mqtt G:\esp-idf\examples\common_components\protocol_examples_common C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common C:\Users\wl\Desktop\esp32-demo\mqtt\cmake-build-debug\esp-idf\protocol_examples_common\CMakeFiles\__idf_protocol_examples_common.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/protocol_examples_common/CMakeFiles/__idf_protocol_examples_common.dir/depend
 

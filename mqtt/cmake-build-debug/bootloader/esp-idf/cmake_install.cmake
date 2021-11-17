@@ -1,4 +1,4 @@
-# Install script for directory: D:/esp/esp-idf
+# Install script for directory: G:/esp-idf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,29 +34,29 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/esp/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "G:/espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/xtensa/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/esp32/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/newlib/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/hal/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/soc/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/spi_flash/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/efuse/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/esp_common/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/esp_rom/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/log/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/partition_table/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/bootloader/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/esp_system/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/esptool_py/cmake_install.cmake")
-  include("E:/EPS32/esp32_test/mqtt/cmake-build-debug/bootloader/esp-idf/main/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/xtensa/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/esp32/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/newlib/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/hal/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/soc/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/spi_flash/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/efuse/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/esp_common/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/esp_rom/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/log/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/partition_table/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/bootloader/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/esp_system/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/esptool_py/cmake_install.cmake")
+  include("C:/Users/wl/Desktop/esp32-demo/mqtt/cmake-build-debug/bootloader/esp-idf/main/cmake_install.cmake")
 
 endif()
 

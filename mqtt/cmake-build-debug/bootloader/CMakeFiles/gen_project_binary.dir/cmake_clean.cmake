@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   ".bin_timestamp"
-  "CMakeFiles/gen_project_binary"
   "bootloader.bin"
   "bootloader.map"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
   "project_elf_src_esp32.c"
+  "CMakeFiles/gen_project_binary"
 )
 
 # Per-language clean rules from dependency scanning.
