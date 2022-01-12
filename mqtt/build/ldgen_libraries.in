@@ -70,4 +70,10 @@ $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_ulp>
 $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_protocol_examples_common>
+$<TARGET_FILE:__idf_spi_bus>
+$<TARGET_FILE:__idf_att7053>
+$<TARGET_FILE:__idf_mbedtls_test>
+$<TARGET_FILE:__idf_uart>
+$<TARGET_FILE:__idf_wifi_conn_mgr>
+$<TARGET_FILE:__idf_wmqtt>
 $<TARGET_FILE:__idf_main>

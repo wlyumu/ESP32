@@ -1,18 +1,10 @@
 idf_component_register(SRCS "app_main.c"
-                            "../sntp/time_update.c" 
-                            "../mqtt/mqtt.c" 
-                            "../uart/uart.c"
-                            
-                            "../wifi/wifi_connect.c"
-                            "../wifi/wifi_connect_mgr.c"
-                            "../smart_config/smart_config.c"
-                            "../uart/car_control_frame.c"
-                            "../nvs/nvs_wifi_info.c"
+                            "app_mqtt.c"
                             "../nvs/nvs_kv.c"
-                            "../web_server/http_server.c"
                             "../timer_demo/esp_timer_demo.c"
-                            "../mbedtls_demo/mbedtls_hmac_sha1.c"
                             "../ATT7053/ATT7053.c"
+                            "../smart_config/smartconfig.c"
                         INCLUDE_DIRS "."
                                  "../include"
-                        EMBED_TXTFILES "../web_server/favicon.ico" "../web_server/upload_script.html")
+                      )
+

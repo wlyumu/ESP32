@@ -6,6 +6,8 @@
         "gpio.h": "c",
         "*.ipp": "c",
         "*.inc": "c",
-        "cstring": "c"
-    }
+        "cstring": "c",
+        "freertos.h": "c"
+    },
+    "idf.adapterTargetName": "esp32"
 }

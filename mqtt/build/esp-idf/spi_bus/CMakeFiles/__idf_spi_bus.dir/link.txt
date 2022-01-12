@@ -1,0 +1,2 @@
+D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc libspi_bus.a  CMakeFiles/__idf_spi_bus.dir/spi_bus.c.obj
+D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe libspi_bus.a

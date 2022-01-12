@@ -11,7 +11,7 @@
 #include "esp_err.h"
 #include "esp_log.h"
 
-#include "../include/nvs_kv.h"
+#include "nvs_kv.h"
 
 static const char *TAG = "nvs_kv";
 
@@ -30,7 +30,7 @@ esp_err_t NVS_Kv_Init(void)
     return err;
 }
 
-esp_err_t NVS_Kv_Delete(const char *key)
+esp_err_t NVS_Kv_Delete(const char*name, const char *key)
 {
     nvs_handle nvs_handle;
     esp_err_t err;
@@ -42,35 +42,41 @@ esp_err_t NVS_Kv_Delete(const char *key)
         return  ESP_FAIL;
     }
 
-    err = nvs_open("storage", NVS_READWRITE, &nvs_handle);
+    err = nvs_open(name, NVS_READWRITE, &nvs_handle);
     if(err != ESP_OK)
     {
         ESP_LOGW(TAG, "nvs open  failed with %x", err);
     }
 
     memcpy(key_name, key, sizeof(key_name));
+    if(!strcmp(key_name, name)){
+        err = nvs_erase_all(nvs_handle);
+    } else{
+        err = nvs_erase_key(nvs_handle, key_name);
+    }
 
-    err = nvs_erase_key(nvs_handle, key_name);
     if (err != ESP_OK) {
         ESP_LOGE(TAG, "nvs erase key %s failed with %x", key_name, err);
     } else {
         nvs_commit(nvs_handle);
     }
+
+    nvs_close(nvs_handle);
     return err;
 }
 
-esp_err_t NVS_Kv_Get(const char *key, void *value, size_t *length)
+esp_err_t NVS_Kv_Get(const char *name, const char *key, void *value, size_t length)
 {
     nvs_handle_t  nvs_handle;
     esp_err_t  err;
 
-    err = nvs_open("storage", NVS_READONLY, &nvs_handle);
+    err = nvs_open(name, NVS_READONLY, &nvs_handle);
     if(err != ESP_OK)
     {
         ESP_LOGW(TAG, "Error (%s) opening NVS handle!", esp_err_to_name(err));
     }
 
-    err = nvs_get_blob(nvs_handle, key, value, length);
+    err = nvs_get_blob(nvs_handle, key, value, &length);
 
     if(err != ESP_OK)
     {
@@ -81,12 +87,12 @@ esp_err_t NVS_Kv_Get(const char *key, void *value, size_t *length)
 }
 
 
-esp_err_t NVS_Kv_Set(const char *key, const void *value, size_t length)
+esp_err_t NVS_Kv_Set(const char *name, const char *key, const void *value, size_t length)
 {
     nvs_handle_t  nvs_handle;
     esp_err_t  err;
 
-    err = nvs_open("storage", NVS_READWRITE, &nvs_handle);
+    err = nvs_open(name, NVS_READWRITE, &nvs_handle);
     if(err != ESP_OK)
     {
         ESP_LOGW(TAG, "Error (%s) opening NVS handle!", esp_err_to_name(err));
