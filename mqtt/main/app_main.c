@@ -29,19 +29,15 @@
 
 #include "esp_log.h"
 #include "mqtt_client.h"
-#include "time_update.h"
 
 #include "esp_spiffs.h"
-#include "../nvs/nvs_kv.h"
+#include "nvs_kv.h"
 #include "wifi_connect_mgr.h"
 #include "mbedtls_test.h"
+#include "lwutil.h"
 
-static const char *TAG = "MQTT_EXAMPLE";
+static const char *TAG = "MAIN";
 
-extern void wifi_init_sta(void);
-extern void initialise_wifi(void);
-extern void uart_thread_create(void);
-extern void nvs_write_read(void);
 extern void mqtt_app_start(void);
 
 
@@ -80,7 +76,29 @@ extern void mqtt_app_start(void);
 //    return ESP_OK;
 //}
 
+void lwutil_test(void)
+{
+    uint8_t is_flag = 0xc;
+    int16_t a = -100;
+    int32_t b = -100;
+    uint8_t ptr[4] = {0};
+    char ascii[20] = {0};
+//    is_flag = lwutil_bits_set(is_flag, 7);
+//    printf("%x\r\n", is_flag);
+//    is_flag = lwutil_bits_is_set_any(is_flag, 4);
+//    printf("%x\r\n", is_flag);
+    lwutil_st_u16_le((uint16_t) a, ptr);
+    printf("%x, %x\r\n", ptr[0], ptr[1]);
+    printf("%d\r\n",(int16_t)lwutil_ld_u16_le(ptr) );
+    lwutil_st_u32_le((int32_t)b, ptr);
+    printf("%x, %x, %x, %x\r\n", ptr[0], ptr[1],  ptr[2], ptr[3]);
+    printf("%d\r\n",(int32_t)lwutil_ld_u32_le(ptr) );
 
+    lwutil_u8_to_2asciis(0x64,ascii );
+    printf("%s\r\n", ascii);
+}
+
+extern void https_req_weather(void);
 void app_main(void)
 {
     ESP_LOGI(TAG, "[APP] Startup..");
@@ -97,15 +115,12 @@ void app_main(void)
    ESP_LOGD(TAG,"my write APP");
     //ESP_ERROR_CHECK(nvs_flash_erase());
 
-    connect_mgr_init();
+   connect_mgr_init();
     connect_mgr_start();
-    aes_ecb_crypt_test();
-    mqtt_app_start();
-//   uart_thread_create();
-//    wifi_init_sta();
-  
-//    system_time_update();
-   //uart2_task_create();
-   //initialise_wifi();
-   //mqtt_app_start();
+//    aes_ecb_crypt_test();
+//    mqtt_app_start();
+
+    lwutil_test();
+    https_req_weather();
+
 }

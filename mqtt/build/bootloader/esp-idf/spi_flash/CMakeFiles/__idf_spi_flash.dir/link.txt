@@ -1,2 +1,0 @@
-D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc libspi_flash.a  CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj
-D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe libspi_flash.a

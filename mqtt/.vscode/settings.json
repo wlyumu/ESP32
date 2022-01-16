@@ -9,5 +9,6 @@
         "cstring": "c",
         "freertos.h": "c"
     },
-    "idf.adapterTargetName": "esp32"
+    "idf.adapterTargetName": "esp32",
+    "idf.portWin": "COM7"
 }

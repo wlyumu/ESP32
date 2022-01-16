@@ -16,7 +16,7 @@
 #include "esp_wifi.h"
 #include "esp_sntp.h"
 #include "include/wifi_connect_mgr.h"
-#include "../../nvs/nvs_kv.h"
+#include "nvs_kv.h"
 #include "esp_smartconfig.h"
 
 static const int CONNECTED_BIT = BIT0;
@@ -368,7 +368,7 @@ esp_err_t  connect_mgr_start(void)
 }
 
 
-/***********************smart_config*******************************/
+/***********************wifi_smart_config*******************************/
 
 
 static void smartconfig_task(void *param)

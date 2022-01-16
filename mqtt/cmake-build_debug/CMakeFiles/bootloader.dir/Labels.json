@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "E:/EPS32/esp32_test/ESP32/mqtt/cmake-build_debug/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

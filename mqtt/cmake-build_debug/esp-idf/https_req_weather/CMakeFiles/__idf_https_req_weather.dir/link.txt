@@ -1,0 +1,2 @@
+D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc libhttps_req_weather.a  CMakeFiles/__idf_https_req_weather.dir/https_request.c.obj CMakeFiles/__idf_https_req_weather.dir/__/__/server_root_cert.pem.S.obj
+D:\esp\espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe libhttps_req_weather.a
